@@ -8,6 +8,7 @@ using System.Windows.Forms;
 using MetroSet_UI.Forms;
 using Microsoft.Data.SqlClient;
 using MetroSet_UI.Controls;
+using System.IO;
 
 namespace CienAppWF
 {
@@ -24,6 +25,7 @@ namespace CienAppWF
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            var database = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Database1.mdf");
             dbConnection = new SqlConnection(CONN_STR);
             dbConnection.Open();
             GetAllSurveys();
