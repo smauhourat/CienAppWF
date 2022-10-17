@@ -37,7 +37,7 @@ namespace CienAppWF
 
         private void GetAllQuestions(int idSurvey)
         {
-            SqlCommand dbCommand = new SqlCommand("SELECT TOP 2 Id, Pregunta FROM Question WHERE IdSurvey = " + idSurvey.ToString(), dbConnection);
+            SqlCommand dbCommand = new SqlCommand("SELECT TOP 5 Id, Pregunta FROM Question WHERE IdSurvey = " + idSurvey.ToString(), dbConnection);
             dbCommand.CommandType = CommandType.Text;
 
             SqlDataAdapter dbAdapter = new SqlDataAdapter(dbCommand);
