@@ -24,6 +24,56 @@ namespace CienAppWF
             InitializeComponent();
             _idSurvey = idSurvey;
             _surveyName = surveyName;
+            AddAnswerHandler();
+        }
+
+        private void AddAnswerHandler()
+        {
+            btnRespuesta_1_1.Click += new EventHandler(btnRespuestaClick);
+            btnRespuesta_1_2.Click += new EventHandler(btnRespuestaClick);
+            btnRespuesta_1_3.Click += new EventHandler(btnRespuestaClick);
+            btnRespuesta_1_4.Click += new EventHandler(btnRespuestaClick);
+            btnRespuesta_1_5.Click += new EventHandler(btnRespuestaClick);
+
+            btnRespuesta_2_1.Click += new EventHandler(btnRespuestaClick);
+            btnRespuesta_2_2.Click += new EventHandler(btnRespuestaClick);
+            btnRespuesta_2_3.Click += new EventHandler(btnRespuestaClick);
+            btnRespuesta_2_4.Click += new EventHandler(btnRespuestaClick);
+            btnRespuesta_2_5.Click += new EventHandler(btnRespuestaClick);
+
+            btnRespuesta_3_1.Click += new EventHandler(btnRespuestaClick);
+            btnRespuesta_3_2.Click += new EventHandler(btnRespuestaClick);
+            btnRespuesta_3_3.Click += new EventHandler(btnRespuestaClick);
+            btnRespuesta_3_4.Click += new EventHandler(btnRespuestaClick);
+            btnRespuesta_3_5.Click += new EventHandler(btnRespuestaClick);
+
+            btnRespuesta_4_1.Click += new EventHandler(btnRespuestaClick);
+            btnRespuesta_4_2.Click += new EventHandler(btnRespuestaClick);
+            btnRespuesta_4_3.Click += new EventHandler(btnRespuestaClick);
+            btnRespuesta_4_4.Click += new EventHandler(btnRespuestaClick);
+            btnRespuesta_4_5.Click += new EventHandler(btnRespuestaClick);
+
+            btnRespuesta_5_1.Click += new EventHandler(btnRespuestaClick);
+            btnRespuesta_5_2.Click += new EventHandler(btnRespuestaClick);
+            btnRespuesta_5_3.Click += new EventHandler(btnRespuestaClick);
+            btnRespuesta_5_4.Click += new EventHandler(btnRespuestaClick);
+            btnRespuesta_5_5.Click += new EventHandler(btnRespuestaClick);
+        }
+
+        private void btnRespuestaClick(object sender, EventArgs e)
+        {
+            ButtonTag tag = (ButtonTag)((MetroSetButton)sender).Tag;
+            if (tag.Hide)
+            {
+                tag.Hide = false;
+                ((MetroSetButton)sender).Text = tag.Answer;
+            }
+            else
+            {
+                tag.Hide = true;
+                ((MetroSetButton)sender).Text = tag.Number;
+            }
+
         }
 
         private void QuestionsMetro_Load(object sender, EventArgs e)
@@ -72,7 +122,9 @@ namespace CienAppWF
                 MetroSetButton ctrl = (MetroSetButton)this.Controls.Find("btnRespuesta_"+ indice_1.ToString()+"_" + indice_2.ToString(), true)[0];
                 if (ctrl != null)
                 {
-                    ctrl.Text = e["Respuesta"].ToString() + " - " + "#" + e["Puntaje"].ToString();
+                    //ctrl.Text = e["Respuesta"].ToString() + " - " + "#" + e["Puntaje"].ToString();
+                    ctrl.Text = indice_2.ToString();
+                    ctrl.Tag = new ButtonTag(indice_2.ToString(), e["Respuesta"].ToString() + " - " + "#" + e["Puntaje"].ToString());
                 }
             }
         }
@@ -85,15 +137,10 @@ namespace CienAppWF
             }
         }
 
-        private void btnRespuesta_1_Click(object sender, EventArgs e)
-        {
-            btnRespuesta_1_1.NormalColor = Color.FromName("Green");
-            btnRespuesta_1_1.Text = "Usar el celular";
-        }
-
         private void metroSetTabControl1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }
+
     }
 }

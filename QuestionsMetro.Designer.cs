@@ -1,4 +1,6 @@
 ﻿
+using System;
+
 namespace CienAppWF
 {
     partial class QuestionsMetro
@@ -60,17 +62,17 @@ namespace CienAppWF
             this.btnRespuesta_4_1 = new MetroSet_UI.Controls.MetroSetButton();
             this.lblPregunta_4 = new MetroSet_UI.Controls.MetroSetLabel();
             this.tabPage5 = new System.Windows.Forms.TabPage();
-            this.tabPage6 = new System.Windows.Forms.TabPage();
-            this.tabPage7 = new System.Windows.Forms.TabPage();
-            this.tabPage8 = new System.Windows.Forms.TabPage();
-            this.tabPage9 = new System.Windows.Forms.TabPage();
-            this.tabPage10 = new System.Windows.Forms.TabPage();
             this.btnRespuesta_5_5 = new MetroSet_UI.Controls.MetroSetButton();
             this.btnRespuesta_5_4 = new MetroSet_UI.Controls.MetroSetButton();
             this.btnRespuesta_5_3 = new MetroSet_UI.Controls.MetroSetButton();
             this.btnRespuesta_5_2 = new MetroSet_UI.Controls.MetroSetButton();
             this.btnRespuesta_5_1 = new MetroSet_UI.Controls.MetroSetButton();
             this.lblPregunta_5 = new MetroSet_UI.Controls.MetroSetLabel();
+            this.tabPage6 = new System.Windows.Forms.TabPage();
+            this.tabPage7 = new System.Windows.Forms.TabPage();
+            this.tabPage8 = new System.Windows.Forms.TabPage();
+            this.tabPage9 = new System.Windows.Forms.TabPage();
+            this.tabPage10 = new System.Windows.Forms.TabPage();
             this.metroSetTabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -174,7 +176,7 @@ namespace CienAppWF
             this.btnRespuesta_1_5.Style = MetroSet_UI.Enums.Style.Light;
             this.btnRespuesta_1_5.StyleManager = null;
             this.btnRespuesta_1_5.TabIndex = 5;
-            this.btnRespuesta_1_5.Tag = "Survey1";
+            this.btnRespuesta_1_5.Tag = "Hide";
             this.btnRespuesta_1_5.Text = "5";
             this.btnRespuesta_1_5.ThemeAuthor = "Narwin";
             this.btnRespuesta_1_5.ThemeName = "MetroLite";
@@ -201,7 +203,7 @@ namespace CienAppWF
             this.btnRespuesta_1_4.Style = MetroSet_UI.Enums.Style.Light;
             this.btnRespuesta_1_4.StyleManager = null;
             this.btnRespuesta_1_4.TabIndex = 4;
-            this.btnRespuesta_1_4.Tag = "Survey1";
+            this.btnRespuesta_1_4.Tag = "Hide";
             this.btnRespuesta_1_4.Text = "4";
             this.btnRespuesta_1_4.ThemeAuthor = "Narwin";
             this.btnRespuesta_1_4.ThemeName = "MetroLite";
@@ -228,7 +230,7 @@ namespace CienAppWF
             this.btnRespuesta_1_3.Style = MetroSet_UI.Enums.Style.Light;
             this.btnRespuesta_1_3.StyleManager = null;
             this.btnRespuesta_1_3.TabIndex = 3;
-            this.btnRespuesta_1_3.Tag = "Survey1";
+            this.btnRespuesta_1_3.Tag = "Hide";
             this.btnRespuesta_1_3.Text = "3";
             this.btnRespuesta_1_3.ThemeAuthor = "Narwin";
             this.btnRespuesta_1_3.ThemeName = "MetroLite";
@@ -255,7 +257,7 @@ namespace CienAppWF
             this.btnRespuesta_1_2.Style = MetroSet_UI.Enums.Style.Light;
             this.btnRespuesta_1_2.StyleManager = null;
             this.btnRespuesta_1_2.TabIndex = 2;
-            this.btnRespuesta_1_2.Tag = "Survey1";
+            this.btnRespuesta_1_2.Tag = "Hide";
             this.btnRespuesta_1_2.Text = "2";
             this.btnRespuesta_1_2.ThemeAuthor = "Narwin";
             this.btnRespuesta_1_2.ThemeName = "MetroLite";
@@ -282,11 +284,10 @@ namespace CienAppWF
             this.btnRespuesta_1_1.Style = MetroSet_UI.Enums.Style.Light;
             this.btnRespuesta_1_1.StyleManager = null;
             this.btnRespuesta_1_1.TabIndex = 1;
-            this.btnRespuesta_1_1.Tag = "Survey1";
+            this.btnRespuesta_1_1.Tag = "Hide";
             this.btnRespuesta_1_1.Text = "1";
             this.btnRespuesta_1_1.ThemeAuthor = "Narwin";
             this.btnRespuesta_1_1.ThemeName = "MetroLite";
-            this.btnRespuesta_1_1.Click += new System.EventHandler(this.btnRespuesta_1_Click);
             // 
             // lblPregunta_1
             // 
@@ -805,46 +806,6 @@ namespace CienAppWF
             this.tabPage5.TabIndex = 4;
             this.tabPage5.Text = "Pregunta 5";
             // 
-            // tabPage6
-            // 
-            this.tabPage6.Location = new System.Drawing.Point(4, 42);
-            this.tabPage6.Name = "tabPage6";
-            this.tabPage6.Size = new System.Drawing.Size(906, 303);
-            this.tabPage6.TabIndex = 5;
-            this.tabPage6.Text = "Pregunta 6";
-            // 
-            // tabPage7
-            // 
-            this.tabPage7.Location = new System.Drawing.Point(4, 42);
-            this.tabPage7.Name = "tabPage7";
-            this.tabPage7.Size = new System.Drawing.Size(906, 303);
-            this.tabPage7.TabIndex = 6;
-            this.tabPage7.Text = "Pregunta 7";
-            // 
-            // tabPage8
-            // 
-            this.tabPage8.Location = new System.Drawing.Point(4, 42);
-            this.tabPage8.Name = "tabPage8";
-            this.tabPage8.Size = new System.Drawing.Size(906, 303);
-            this.tabPage8.TabIndex = 7;
-            this.tabPage8.Text = "Pregunta 8";
-            // 
-            // tabPage9
-            // 
-            this.tabPage9.Location = new System.Drawing.Point(4, 42);
-            this.tabPage9.Name = "tabPage9";
-            this.tabPage9.Size = new System.Drawing.Size(906, 303);
-            this.tabPage9.TabIndex = 8;
-            this.tabPage9.Text = "Pregunta 9";
-            // 
-            // tabPage10
-            // 
-            this.tabPage10.Location = new System.Drawing.Point(4, 42);
-            this.tabPage10.Name = "tabPage10";
-            this.tabPage10.Size = new System.Drawing.Size(906, 303);
-            this.tabPage10.TabIndex = 9;
-            this.tabPage10.Text = "Pregunta 10";
-            // 
             // btnRespuesta_5_5
             // 
             this.btnRespuesta_5_5.DisabledBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
@@ -993,6 +954,46 @@ namespace CienAppWF
             this.lblPregunta_5.Text = "metroSetLabel1";
             this.lblPregunta_5.ThemeAuthor = "Narwin";
             this.lblPregunta_5.ThemeName = "MetroLite";
+            // 
+            // tabPage6
+            // 
+            this.tabPage6.Location = new System.Drawing.Point(4, 42);
+            this.tabPage6.Name = "tabPage6";
+            this.tabPage6.Size = new System.Drawing.Size(906, 303);
+            this.tabPage6.TabIndex = 5;
+            this.tabPage6.Text = "Pregunta 6";
+            // 
+            // tabPage7
+            // 
+            this.tabPage7.Location = new System.Drawing.Point(4, 42);
+            this.tabPage7.Name = "tabPage7";
+            this.tabPage7.Size = new System.Drawing.Size(906, 303);
+            this.tabPage7.TabIndex = 6;
+            this.tabPage7.Text = "Pregunta 7";
+            // 
+            // tabPage8
+            // 
+            this.tabPage8.Location = new System.Drawing.Point(4, 42);
+            this.tabPage8.Name = "tabPage8";
+            this.tabPage8.Size = new System.Drawing.Size(906, 303);
+            this.tabPage8.TabIndex = 7;
+            this.tabPage8.Text = "Pregunta 8";
+            // 
+            // tabPage9
+            // 
+            this.tabPage9.Location = new System.Drawing.Point(4, 42);
+            this.tabPage9.Name = "tabPage9";
+            this.tabPage9.Size = new System.Drawing.Size(906, 303);
+            this.tabPage9.TabIndex = 8;
+            this.tabPage9.Text = "Pregunta 9";
+            // 
+            // tabPage10
+            // 
+            this.tabPage10.Location = new System.Drawing.Point(4, 42);
+            this.tabPage10.Name = "tabPage10";
+            this.tabPage10.Size = new System.Drawing.Size(906, 303);
+            this.tabPage10.TabIndex = 9;
+            this.tabPage10.Text = "Pregunta 10";
             // 
             // QuestionsMetro
             // 
