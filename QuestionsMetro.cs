@@ -29,9 +29,54 @@ namespace CienAppWF
         private void QuestionsMetro_Load(object sender, EventArgs e)
         {
             this.Text += " " + this._surveyName;
+            dbConnection = new SqlConnection(CONN_STR);
+            dbConnection.Open();
+
+            GetAllQuestions(this._idSurvey);
         }
 
-        private void QuestionsMetro_FormClosed(object sender, FormClosedEventArgs e)
+        private void GetAllQuestions(int idSurvey)
+        {
+            SqlCommand dbCommand = new SqlCommand("SELECT TOP 2 Id, Pregunta FROM Question WHERE IdSurvey = " + idSurvey.ToString(), dbConnection);
+            dbCommand.CommandType = CommandType.Text;
+
+            SqlDataAdapter dbAdapter = new SqlDataAdapter(dbCommand);
+            DataTable dt = new DataTable();
+            dbAdapter.Fill(dt);
+
+            foreach (DataRow e in dt.Rows)
+            {
+                int indice = int.Parse(e["Id"].ToString()) - (10*(idSurvey-1));
+                MetroSetLabel ctrl = (MetroSetLabel)this.Controls.Find("lblPregunta_" + indice.ToString(), true)[0];
+                if (ctrl != null)
+                {
+                    ctrl.Text = e["Pregunta"].ToString();
+                    GetAllAnswers(int.Parse(e["Id"].ToString()));
+                }
+            }
+        }
+
+        private void GetAllAnswers(int idQuestion)
+        {
+            SqlCommand dbCommand = new SqlCommand("SELECT Id, Respuesta, Puntaje FROM Answer WHERE IdQuestion = " + idQuestion.ToString(), dbConnection);
+            dbCommand.CommandType = CommandType.Text;
+
+            SqlDataAdapter dbAdapter = new SqlDataAdapter(dbCommand);
+            DataTable dt = new DataTable();
+            dbAdapter.Fill(dt);
+
+            foreach (DataRow e in dt.Rows)
+            {
+                int indice = int.Parse(e["Id"].ToString()) - (5 * (idQuestion - 1));
+                MetroSetButton ctrl = (MetroSetButton)this.Controls.Find("btnRespuesta_"+idQuestion.ToString()+"_" + indice.ToString(), true)[0];
+                if (ctrl != null)
+                {
+                    ctrl.Text = e["Respuesta"].ToString() + " - " + "#" + e["Puntaje"].ToString();
+                }
+            }
+        }
+
+            private void QuestionsMetro_FormClosed(object sender, FormClosedEventArgs e)
         {
             if (dbConnection != null)
             {
@@ -41,8 +86,13 @@ namespace CienAppWF
 
         private void btnRespuesta_1_Click(object sender, EventArgs e)
         {
-            btnRespuesta_1.NormalColor = Color.FromName("Green");
-            btnRespuesta_1.Text = "Usar el celular";
+            btnRespuesta_1_1.NormalColor = Color.FromName("Green");
+            btnRespuesta_1_1.Text = "Usar el celular";
+        }
+
+        private void metroSetTabControl1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

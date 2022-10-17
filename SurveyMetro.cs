@@ -27,8 +27,6 @@ namespace CienAppWF
             dbConnection = new SqlConnection(CONN_STR);
             dbConnection.Open();
             GetAllSurveys();
-
-            
         }
 
         private int GetIdFromName(string name)
