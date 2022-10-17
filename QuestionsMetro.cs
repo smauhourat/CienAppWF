@@ -58,6 +58,12 @@ namespace CienAppWF
             btnRespuesta_5_3.Click += new EventHandler(btnRespuestaClick);
             btnRespuesta_5_4.Click += new EventHandler(btnRespuestaClick);
             btnRespuesta_5_5.Click += new EventHandler(btnRespuestaClick);
+
+            btnRespuesta_6_1.Click += new EventHandler(btnRespuestaClick);
+            btnRespuesta_6_2.Click += new EventHandler(btnRespuestaClick);
+            btnRespuesta_6_3.Click += new EventHandler(btnRespuestaClick);
+            btnRespuesta_6_4.Click += new EventHandler(btnRespuestaClick);
+            btnRespuesta_6_5.Click += new EventHandler(btnRespuestaClick);
         }
 
         private void btnRespuestaClick(object sender, EventArgs e)
@@ -87,7 +93,7 @@ namespace CienAppWF
 
         private void GetAllQuestions(int idSurvey)
         {
-            SqlCommand dbCommand = new SqlCommand("SELECT TOP 5 Id, Pregunta FROM Question WHERE IdSurvey = " + idSurvey.ToString(), dbConnection);
+            SqlCommand dbCommand = new SqlCommand("SELECT TOP 6 Id, Pregunta FROM Question WHERE IdSurvey = " + idSurvey.ToString(), dbConnection);
             dbCommand.CommandType = CommandType.Text;
 
             SqlDataAdapter dbAdapter = new SqlDataAdapter(dbCommand);
