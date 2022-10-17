@@ -58,7 +58,7 @@ namespace CienAppWF
 
         private void GetAllAnswers(int idQuestion)
         {
-            SqlCommand dbCommand = new SqlCommand("SELECT Id, Respuesta, Puntaje FROM Answer WHERE IdQuestion = " + idQuestion.ToString(), dbConnection);
+            SqlCommand dbCommand = new SqlCommand("SELECT A.Id, B.IdSurvey, A.Respuesta, A.Puntaje FROM Answer A INNER JOIN Question B on A.IdQuestion = B.Id WHERE A.IdQuestion = " + idQuestion.ToString(), dbConnection);
             dbCommand.CommandType = CommandType.Text;
 
             SqlDataAdapter dbAdapter = new SqlDataAdapter(dbCommand);
@@ -67,8 +67,9 @@ namespace CienAppWF
 
             foreach (DataRow e in dt.Rows)
             {
-                int indice = int.Parse(e["Id"].ToString()) - (5 * (idQuestion - 1));
-                MetroSetButton ctrl = (MetroSetButton)this.Controls.Find("btnRespuesta_"+idQuestion.ToString()+"_" + indice.ToString(), true)[0];
+                int indice_1 = idQuestion - (10 * (int.Parse(e["IdSurvey"].ToString()) - 1));
+                int indice_2 = int.Parse(e["Id"].ToString()) - (5 * (idQuestion - 1));
+                MetroSetButton ctrl = (MetroSetButton)this.Controls.Find("btnRespuesta_"+ indice_1.ToString()+"_" + indice_2.ToString(), true)[0];
                 if (ctrl != null)
                 {
                     ctrl.Text = e["Respuesta"].ToString() + " - " + "#" + e["Puntaje"].ToString();
