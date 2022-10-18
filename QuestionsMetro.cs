@@ -76,6 +76,18 @@ namespace CienAppWF
             btnRespuesta_8_3.Click += new EventHandler(btnRespuestaClick);
             btnRespuesta_8_4.Click += new EventHandler(btnRespuestaClick);
             btnRespuesta_8_5.Click += new EventHandler(btnRespuestaClick);
+
+            btnRespuesta_9_1.Click += new EventHandler(btnRespuestaClick);
+            btnRespuesta_9_2.Click += new EventHandler(btnRespuestaClick);
+            btnRespuesta_9_3.Click += new EventHandler(btnRespuestaClick);
+            btnRespuesta_9_4.Click += new EventHandler(btnRespuestaClick);
+            btnRespuesta_9_5.Click += new EventHandler(btnRespuestaClick);
+
+            btnRespuesta_10_1.Click += new EventHandler(btnRespuestaClick);
+            btnRespuesta_10_2.Click += new EventHandler(btnRespuestaClick);
+            btnRespuesta_10_3.Click += new EventHandler(btnRespuestaClick);
+            btnRespuesta_10_4.Click += new EventHandler(btnRespuestaClick);
+            btnRespuesta_10_5.Click += new EventHandler(btnRespuestaClick);
         }
 
         private void btnRespuestaClick(object sender, EventArgs e)
@@ -105,7 +117,7 @@ namespace CienAppWF
 
         private void GetAllQuestions(int idSurvey)
         {
-            SqlCommand dbCommand = new SqlCommand("SELECT TOP 8 Id, Pregunta FROM Question WHERE IdSurvey = " + idSurvey.ToString(), dbConnection);
+            SqlCommand dbCommand = new SqlCommand("SELECT TOP 10 Id, Pregunta FROM Question WHERE IdSurvey = " + idSurvey.ToString(), dbConnection);
             dbCommand.CommandType = CommandType.Text;
 
             SqlDataAdapter dbAdapter = new SqlDataAdapter(dbCommand);

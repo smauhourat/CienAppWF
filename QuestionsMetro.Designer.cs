@@ -33,7 +33,6 @@ namespace CienAppWF
         {
             this.metroSetControlBox1 = new MetroSet_UI.Controls.MetroSetControlBox();
             this.metroSetTabControl1 = new MetroSet_UI.Controls.MetroSetTabControl();
-            this.tabPage8 = new System.Windows.Forms.TabPage();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.btnRespuesta_1_5 = new MetroSet_UI.Controls.MetroSetButton();
             this.btnRespuesta_1_4 = new MetroSet_UI.Controls.MetroSetButton();
@@ -83,16 +82,28 @@ namespace CienAppWF
             this.btnRespuesta_7_2 = new MetroSet_UI.Controls.MetroSetButton();
             this.btnRespuesta_7_1 = new MetroSet_UI.Controls.MetroSetButton();
             this.lblPregunta_7 = new MetroSet_UI.Controls.MetroSetLabel();
-            this.tabPage9 = new System.Windows.Forms.TabPage();
-            this.tabPage10 = new System.Windows.Forms.TabPage();
+            this.tabPage8 = new System.Windows.Forms.TabPage();
             this.btnRespuesta_8_5 = new MetroSet_UI.Controls.MetroSetButton();
             this.btnRespuesta_8_4 = new MetroSet_UI.Controls.MetroSetButton();
             this.btnRespuesta_8_3 = new MetroSet_UI.Controls.MetroSetButton();
             this.btnRespuesta_8_2 = new MetroSet_UI.Controls.MetroSetButton();
             this.btnRespuesta_8_1 = new MetroSet_UI.Controls.MetroSetButton();
             this.lblPregunta_8 = new MetroSet_UI.Controls.MetroSetLabel();
+            this.tabPage9 = new System.Windows.Forms.TabPage();
+            this.tabPage10 = new System.Windows.Forms.TabPage();
+            this.btnRespuesta_9_5 = new MetroSet_UI.Controls.MetroSetButton();
+            this.btnRespuesta_9_4 = new MetroSet_UI.Controls.MetroSetButton();
+            this.btnRespuesta_9_3 = new MetroSet_UI.Controls.MetroSetButton();
+            this.btnRespuesta_9_2 = new MetroSet_UI.Controls.MetroSetButton();
+            this.btnRespuesta_9_1 = new MetroSet_UI.Controls.MetroSetButton();
+            this.lblPregunta_9 = new MetroSet_UI.Controls.MetroSetLabel();
+            this.btnRespuesta_10_5 = new MetroSet_UI.Controls.MetroSetButton();
+            this.btnRespuesta_10_4 = new MetroSet_UI.Controls.MetroSetButton();
+            this.btnRespuesta_10_3 = new MetroSet_UI.Controls.MetroSetButton();
+            this.btnRespuesta_10_2 = new MetroSet_UI.Controls.MetroSetButton();
+            this.btnRespuesta_10_1 = new MetroSet_UI.Controls.MetroSetButton();
+            this.lblPregunta_10 = new MetroSet_UI.Controls.MetroSetLabel();
             this.metroSetTabControl1.SuspendLayout();
-            this.tabPage8.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.tabPage3.SuspendLayout();
@@ -100,6 +111,9 @@ namespace CienAppWF
             this.tabPage5.SuspendLayout();
             this.tabPage6.SuspendLayout();
             this.tabPage7.SuspendLayout();
+            this.tabPage8.SuspendLayout();
+            this.tabPage9.SuspendLayout();
+            this.tabPage10.SuspendLayout();
             this.SuspendLayout();
             // 
             // metroSetControlBox1
@@ -160,20 +174,6 @@ namespace CienAppWF
             this.metroSetTabControl1.UnselectedTextColor = System.Drawing.Color.Gray;
             this.metroSetTabControl1.UseAnimation = false;
             this.metroSetTabControl1.SelectedIndexChanged += new System.EventHandler(this.metroSetTabControl1_SelectedIndexChanged);
-            // 
-            // tabPage8
-            // 
-            this.tabPage8.Controls.Add(this.btnRespuesta_8_5);
-            this.tabPage8.Controls.Add(this.btnRespuesta_8_4);
-            this.tabPage8.Controls.Add(this.btnRespuesta_8_3);
-            this.tabPage8.Controls.Add(this.btnRespuesta_8_2);
-            this.tabPage8.Controls.Add(this.btnRespuesta_8_1);
-            this.tabPage8.Controls.Add(this.lblPregunta_8);
-            this.tabPage8.Location = new System.Drawing.Point(4, 42);
-            this.tabPage8.Name = "tabPage8";
-            this.tabPage8.Size = new System.Drawing.Size(906, 303);
-            this.tabPage8.TabIndex = 7;
-            this.tabPage8.Text = "Pregunta 8";
             // 
             // tabPage1
             // 
@@ -1316,21 +1316,19 @@ namespace CienAppWF
             this.lblPregunta_7.ThemeAuthor = "Narwin";
             this.lblPregunta_7.ThemeName = "MetroLite";
             // 
-            // tabPage9
+            // tabPage8
             // 
-            this.tabPage9.Location = new System.Drawing.Point(4, 42);
-            this.tabPage9.Name = "tabPage9";
-            this.tabPage9.Size = new System.Drawing.Size(906, 303);
-            this.tabPage9.TabIndex = 8;
-            this.tabPage9.Text = "Pregunta 9";
-            // 
-            // tabPage10
-            // 
-            this.tabPage10.Location = new System.Drawing.Point(4, 42);
-            this.tabPage10.Name = "tabPage10";
-            this.tabPage10.Size = new System.Drawing.Size(906, 303);
-            this.tabPage10.TabIndex = 9;
-            this.tabPage10.Text = "Pregunta 10";
+            this.tabPage8.Controls.Add(this.btnRespuesta_8_5);
+            this.tabPage8.Controls.Add(this.btnRespuesta_8_4);
+            this.tabPage8.Controls.Add(this.btnRespuesta_8_3);
+            this.tabPage8.Controls.Add(this.btnRespuesta_8_2);
+            this.tabPage8.Controls.Add(this.btnRespuesta_8_1);
+            this.tabPage8.Controls.Add(this.lblPregunta_8);
+            this.tabPage8.Location = new System.Drawing.Point(4, 42);
+            this.tabPage8.Name = "tabPage8";
+            this.tabPage8.Size = new System.Drawing.Size(906, 303);
+            this.tabPage8.TabIndex = 7;
+            this.tabPage8.Text = "Pregunta 8";
             // 
             // btnRespuesta_8_5
             // 
@@ -1481,6 +1479,332 @@ namespace CienAppWF
             this.lblPregunta_8.ThemeAuthor = "Narwin";
             this.lblPregunta_8.ThemeName = "MetroLite";
             // 
+            // tabPage9
+            // 
+            this.tabPage9.Controls.Add(this.btnRespuesta_9_5);
+            this.tabPage9.Controls.Add(this.btnRespuesta_9_4);
+            this.tabPage9.Controls.Add(this.btnRespuesta_9_3);
+            this.tabPage9.Controls.Add(this.btnRespuesta_9_2);
+            this.tabPage9.Controls.Add(this.btnRespuesta_9_1);
+            this.tabPage9.Controls.Add(this.lblPregunta_9);
+            this.tabPage9.Location = new System.Drawing.Point(4, 42);
+            this.tabPage9.Name = "tabPage9";
+            this.tabPage9.Size = new System.Drawing.Size(906, 303);
+            this.tabPage9.TabIndex = 8;
+            this.tabPage9.Text = "Pregunta 9";
+            // 
+            // tabPage10
+            // 
+            this.tabPage10.Controls.Add(this.btnRespuesta_10_5);
+            this.tabPage10.Controls.Add(this.btnRespuesta_10_4);
+            this.tabPage10.Controls.Add(this.btnRespuesta_10_3);
+            this.tabPage10.Controls.Add(this.btnRespuesta_10_2);
+            this.tabPage10.Controls.Add(this.btnRespuesta_10_1);
+            this.tabPage10.Controls.Add(this.lblPregunta_10);
+            this.tabPage10.Location = new System.Drawing.Point(4, 42);
+            this.tabPage10.Name = "tabPage10";
+            this.tabPage10.Size = new System.Drawing.Size(906, 303);
+            this.tabPage10.TabIndex = 9;
+            this.tabPage10.Text = "Pregunta 10";
+            // 
+            // btnRespuesta_9_5
+            // 
+            this.btnRespuesta_9_5.DisabledBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
+            this.btnRespuesta_9_5.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
+            this.btnRespuesta_9_5.DisabledForeColor = System.Drawing.Color.Gray;
+            this.btnRespuesta_9_5.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnRespuesta_9_5.HoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(207)))), ((int)(((byte)(255)))));
+            this.btnRespuesta_9_5.HoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(207)))), ((int)(((byte)(255)))));
+            this.btnRespuesta_9_5.HoverTextColor = System.Drawing.Color.White;
+            this.btnRespuesta_9_5.IsDerivedStyle = true;
+            this.btnRespuesta_9_5.Location = new System.Drawing.Point(469, 183);
+            this.btnRespuesta_9_5.Name = "btnRespuesta_9_5";
+            this.btnRespuesta_9_5.NormalBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
+            this.btnRespuesta_9_5.NormalColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
+            this.btnRespuesta_9_5.NormalTextColor = System.Drawing.Color.White;
+            this.btnRespuesta_9_5.PressBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(147)))), ((int)(((byte)(195)))));
+            this.btnRespuesta_9_5.PressColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(147)))), ((int)(((byte)(195)))));
+            this.btnRespuesta_9_5.PressTextColor = System.Drawing.Color.White;
+            this.btnRespuesta_9_5.Size = new System.Drawing.Size(185, 79);
+            this.btnRespuesta_9_5.Style = MetroSet_UI.Enums.Style.Light;
+            this.btnRespuesta_9_5.StyleManager = null;
+            this.btnRespuesta_9_5.TabIndex = 11;
+            this.btnRespuesta_9_5.Tag = "Hide";
+            this.btnRespuesta_9_5.Text = "5";
+            this.btnRespuesta_9_5.ThemeAuthor = "Narwin";
+            this.btnRespuesta_9_5.ThemeName = "MetroLite";
+            // 
+            // btnRespuesta_9_4
+            // 
+            this.btnRespuesta_9_4.DisabledBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
+            this.btnRespuesta_9_4.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
+            this.btnRespuesta_9_4.DisabledForeColor = System.Drawing.Color.Gray;
+            this.btnRespuesta_9_4.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnRespuesta_9_4.HoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(207)))), ((int)(((byte)(255)))));
+            this.btnRespuesta_9_4.HoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(207)))), ((int)(((byte)(255)))));
+            this.btnRespuesta_9_4.HoverTextColor = System.Drawing.Color.White;
+            this.btnRespuesta_9_4.IsDerivedStyle = true;
+            this.btnRespuesta_9_4.Location = new System.Drawing.Point(206, 183);
+            this.btnRespuesta_9_4.Name = "btnRespuesta_9_4";
+            this.btnRespuesta_9_4.NormalBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
+            this.btnRespuesta_9_4.NormalColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
+            this.btnRespuesta_9_4.NormalTextColor = System.Drawing.Color.White;
+            this.btnRespuesta_9_4.PressBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(147)))), ((int)(((byte)(195)))));
+            this.btnRespuesta_9_4.PressColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(147)))), ((int)(((byte)(195)))));
+            this.btnRespuesta_9_4.PressTextColor = System.Drawing.Color.White;
+            this.btnRespuesta_9_4.Size = new System.Drawing.Size(185, 79);
+            this.btnRespuesta_9_4.Style = MetroSet_UI.Enums.Style.Light;
+            this.btnRespuesta_9_4.StyleManager = null;
+            this.btnRespuesta_9_4.TabIndex = 10;
+            this.btnRespuesta_9_4.Tag = "Hide";
+            this.btnRespuesta_9_4.Text = "4";
+            this.btnRespuesta_9_4.ThemeAuthor = "Narwin";
+            this.btnRespuesta_9_4.ThemeName = "MetroLite";
+            // 
+            // btnRespuesta_9_3
+            // 
+            this.btnRespuesta_9_3.DisabledBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
+            this.btnRespuesta_9_3.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
+            this.btnRespuesta_9_3.DisabledForeColor = System.Drawing.Color.Gray;
+            this.btnRespuesta_9_3.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnRespuesta_9_3.HoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(207)))), ((int)(((byte)(255)))));
+            this.btnRespuesta_9_3.HoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(207)))), ((int)(((byte)(255)))));
+            this.btnRespuesta_9_3.HoverTextColor = System.Drawing.Color.White;
+            this.btnRespuesta_9_3.IsDerivedStyle = true;
+            this.btnRespuesta_9_3.Location = new System.Drawing.Point(603, 79);
+            this.btnRespuesta_9_3.Name = "btnRespuesta_9_3";
+            this.btnRespuesta_9_3.NormalBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
+            this.btnRespuesta_9_3.NormalColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
+            this.btnRespuesta_9_3.NormalTextColor = System.Drawing.Color.White;
+            this.btnRespuesta_9_3.PressBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(147)))), ((int)(((byte)(195)))));
+            this.btnRespuesta_9_3.PressColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(147)))), ((int)(((byte)(195)))));
+            this.btnRespuesta_9_3.PressTextColor = System.Drawing.Color.White;
+            this.btnRespuesta_9_3.Size = new System.Drawing.Size(185, 79);
+            this.btnRespuesta_9_3.Style = MetroSet_UI.Enums.Style.Light;
+            this.btnRespuesta_9_3.StyleManager = null;
+            this.btnRespuesta_9_3.TabIndex = 9;
+            this.btnRespuesta_9_3.Tag = "Hide";
+            this.btnRespuesta_9_3.Text = "3";
+            this.btnRespuesta_9_3.ThemeAuthor = "Narwin";
+            this.btnRespuesta_9_3.ThemeName = "MetroLite";
+            // 
+            // btnRespuesta_9_2
+            // 
+            this.btnRespuesta_9_2.DisabledBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
+            this.btnRespuesta_9_2.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
+            this.btnRespuesta_9_2.DisabledForeColor = System.Drawing.Color.Gray;
+            this.btnRespuesta_9_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnRespuesta_9_2.HoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(207)))), ((int)(((byte)(255)))));
+            this.btnRespuesta_9_2.HoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(207)))), ((int)(((byte)(255)))));
+            this.btnRespuesta_9_2.HoverTextColor = System.Drawing.Color.White;
+            this.btnRespuesta_9_2.IsDerivedStyle = true;
+            this.btnRespuesta_9_2.Location = new System.Drawing.Point(341, 79);
+            this.btnRespuesta_9_2.Name = "btnRespuesta_9_2";
+            this.btnRespuesta_9_2.NormalBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
+            this.btnRespuesta_9_2.NormalColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
+            this.btnRespuesta_9_2.NormalTextColor = System.Drawing.Color.White;
+            this.btnRespuesta_9_2.PressBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(147)))), ((int)(((byte)(195)))));
+            this.btnRespuesta_9_2.PressColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(147)))), ((int)(((byte)(195)))));
+            this.btnRespuesta_9_2.PressTextColor = System.Drawing.Color.White;
+            this.btnRespuesta_9_2.Size = new System.Drawing.Size(185, 79);
+            this.btnRespuesta_9_2.Style = MetroSet_UI.Enums.Style.Light;
+            this.btnRespuesta_9_2.StyleManager = null;
+            this.btnRespuesta_9_2.TabIndex = 8;
+            this.btnRespuesta_9_2.Tag = "Hide";
+            this.btnRespuesta_9_2.Text = "2";
+            this.btnRespuesta_9_2.ThemeAuthor = "Narwin";
+            this.btnRespuesta_9_2.ThemeName = "MetroLite";
+            // 
+            // btnRespuesta_9_1
+            // 
+            this.btnRespuesta_9_1.DisabledBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
+            this.btnRespuesta_9_1.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
+            this.btnRespuesta_9_1.DisabledForeColor = System.Drawing.Color.Gray;
+            this.btnRespuesta_9_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnRespuesta_9_1.HoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(207)))), ((int)(((byte)(255)))));
+            this.btnRespuesta_9_1.HoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(207)))), ((int)(((byte)(255)))));
+            this.btnRespuesta_9_1.HoverTextColor = System.Drawing.Color.White;
+            this.btnRespuesta_9_1.IsDerivedStyle = true;
+            this.btnRespuesta_9_1.Location = new System.Drawing.Point(76, 79);
+            this.btnRespuesta_9_1.Name = "btnRespuesta_9_1";
+            this.btnRespuesta_9_1.NormalBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
+            this.btnRespuesta_9_1.NormalColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
+            this.btnRespuesta_9_1.NormalTextColor = System.Drawing.Color.White;
+            this.btnRespuesta_9_1.PressBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(147)))), ((int)(((byte)(195)))));
+            this.btnRespuesta_9_1.PressColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(147)))), ((int)(((byte)(195)))));
+            this.btnRespuesta_9_1.PressTextColor = System.Drawing.Color.White;
+            this.btnRespuesta_9_1.Size = new System.Drawing.Size(185, 79);
+            this.btnRespuesta_9_1.Style = MetroSet_UI.Enums.Style.Light;
+            this.btnRespuesta_9_1.StyleManager = null;
+            this.btnRespuesta_9_1.TabIndex = 7;
+            this.btnRespuesta_9_1.Tag = "Hide";
+            this.btnRespuesta_9_1.Text = "1";
+            this.btnRespuesta_9_1.ThemeAuthor = "Narwin";
+            this.btnRespuesta_9_1.ThemeName = "MetroLite";
+            // 
+            // lblPregunta_9
+            // 
+            this.lblPregunta_9.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblPregunta_9.IsDerivedStyle = true;
+            this.lblPregunta_9.Location = new System.Drawing.Point(19, 29);
+            this.lblPregunta_9.Name = "lblPregunta_9";
+            this.lblPregunta_9.Size = new System.Drawing.Size(699, 23);
+            this.lblPregunta_9.Style = MetroSet_UI.Enums.Style.Light;
+            this.lblPregunta_9.StyleManager = null;
+            this.lblPregunta_9.TabIndex = 6;
+            this.lblPregunta_9.Text = "metroSetLabel1";
+            this.lblPregunta_9.ThemeAuthor = "Narwin";
+            this.lblPregunta_9.ThemeName = "MetroLite";
+            // 
+            // btnRespuesta_10_5
+            // 
+            this.btnRespuesta_10_5.DisabledBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
+            this.btnRespuesta_10_5.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
+            this.btnRespuesta_10_5.DisabledForeColor = System.Drawing.Color.Gray;
+            this.btnRespuesta_10_5.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnRespuesta_10_5.HoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(207)))), ((int)(((byte)(255)))));
+            this.btnRespuesta_10_5.HoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(207)))), ((int)(((byte)(255)))));
+            this.btnRespuesta_10_5.HoverTextColor = System.Drawing.Color.White;
+            this.btnRespuesta_10_5.IsDerivedStyle = true;
+            this.btnRespuesta_10_5.Location = new System.Drawing.Point(469, 183);
+            this.btnRespuesta_10_5.Name = "btnRespuesta_10_5";
+            this.btnRespuesta_10_5.NormalBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
+            this.btnRespuesta_10_5.NormalColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
+            this.btnRespuesta_10_5.NormalTextColor = System.Drawing.Color.White;
+            this.btnRespuesta_10_5.PressBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(147)))), ((int)(((byte)(195)))));
+            this.btnRespuesta_10_5.PressColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(147)))), ((int)(((byte)(195)))));
+            this.btnRespuesta_10_5.PressTextColor = System.Drawing.Color.White;
+            this.btnRespuesta_10_5.Size = new System.Drawing.Size(185, 79);
+            this.btnRespuesta_10_5.Style = MetroSet_UI.Enums.Style.Light;
+            this.btnRespuesta_10_5.StyleManager = null;
+            this.btnRespuesta_10_5.TabIndex = 17;
+            this.btnRespuesta_10_5.Tag = "Hide";
+            this.btnRespuesta_10_5.Text = "5";
+            this.btnRespuesta_10_5.ThemeAuthor = "Narwin";
+            this.btnRespuesta_10_5.ThemeName = "MetroLite";
+            // 
+            // btnRespuesta_10_4
+            // 
+            this.btnRespuesta_10_4.DisabledBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
+            this.btnRespuesta_10_4.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
+            this.btnRespuesta_10_4.DisabledForeColor = System.Drawing.Color.Gray;
+            this.btnRespuesta_10_4.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnRespuesta_10_4.HoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(207)))), ((int)(((byte)(255)))));
+            this.btnRespuesta_10_4.HoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(207)))), ((int)(((byte)(255)))));
+            this.btnRespuesta_10_4.HoverTextColor = System.Drawing.Color.White;
+            this.btnRespuesta_10_4.IsDerivedStyle = true;
+            this.btnRespuesta_10_4.Location = new System.Drawing.Point(206, 183);
+            this.btnRespuesta_10_4.Name = "btnRespuesta_10_4";
+            this.btnRespuesta_10_4.NormalBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
+            this.btnRespuesta_10_4.NormalColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
+            this.btnRespuesta_10_4.NormalTextColor = System.Drawing.Color.White;
+            this.btnRespuesta_10_4.PressBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(147)))), ((int)(((byte)(195)))));
+            this.btnRespuesta_10_4.PressColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(147)))), ((int)(((byte)(195)))));
+            this.btnRespuesta_10_4.PressTextColor = System.Drawing.Color.White;
+            this.btnRespuesta_10_4.Size = new System.Drawing.Size(185, 79);
+            this.btnRespuesta_10_4.Style = MetroSet_UI.Enums.Style.Light;
+            this.btnRespuesta_10_4.StyleManager = null;
+            this.btnRespuesta_10_4.TabIndex = 16;
+            this.btnRespuesta_10_4.Tag = "Hide";
+            this.btnRespuesta_10_4.Text = "4";
+            this.btnRespuesta_10_4.ThemeAuthor = "Narwin";
+            this.btnRespuesta_10_4.ThemeName = "MetroLite";
+            // 
+            // btnRespuesta_10_3
+            // 
+            this.btnRespuesta_10_3.DisabledBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
+            this.btnRespuesta_10_3.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
+            this.btnRespuesta_10_3.DisabledForeColor = System.Drawing.Color.Gray;
+            this.btnRespuesta_10_3.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnRespuesta_10_3.HoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(207)))), ((int)(((byte)(255)))));
+            this.btnRespuesta_10_3.HoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(207)))), ((int)(((byte)(255)))));
+            this.btnRespuesta_10_3.HoverTextColor = System.Drawing.Color.White;
+            this.btnRespuesta_10_3.IsDerivedStyle = true;
+            this.btnRespuesta_10_3.Location = new System.Drawing.Point(603, 79);
+            this.btnRespuesta_10_3.Name = "btnRespuesta_10_3";
+            this.btnRespuesta_10_3.NormalBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
+            this.btnRespuesta_10_3.NormalColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
+            this.btnRespuesta_10_3.NormalTextColor = System.Drawing.Color.White;
+            this.btnRespuesta_10_3.PressBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(147)))), ((int)(((byte)(195)))));
+            this.btnRespuesta_10_3.PressColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(147)))), ((int)(((byte)(195)))));
+            this.btnRespuesta_10_3.PressTextColor = System.Drawing.Color.White;
+            this.btnRespuesta_10_3.Size = new System.Drawing.Size(185, 79);
+            this.btnRespuesta_10_3.Style = MetroSet_UI.Enums.Style.Light;
+            this.btnRespuesta_10_3.StyleManager = null;
+            this.btnRespuesta_10_3.TabIndex = 15;
+            this.btnRespuesta_10_3.Tag = "Hide";
+            this.btnRespuesta_10_3.Text = "3";
+            this.btnRespuesta_10_3.ThemeAuthor = "Narwin";
+            this.btnRespuesta_10_3.ThemeName = "MetroLite";
+            // 
+            // btnRespuesta_10_2
+            // 
+            this.btnRespuesta_10_2.DisabledBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
+            this.btnRespuesta_10_2.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
+            this.btnRespuesta_10_2.DisabledForeColor = System.Drawing.Color.Gray;
+            this.btnRespuesta_10_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnRespuesta_10_2.HoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(207)))), ((int)(((byte)(255)))));
+            this.btnRespuesta_10_2.HoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(207)))), ((int)(((byte)(255)))));
+            this.btnRespuesta_10_2.HoverTextColor = System.Drawing.Color.White;
+            this.btnRespuesta_10_2.IsDerivedStyle = true;
+            this.btnRespuesta_10_2.Location = new System.Drawing.Point(341, 79);
+            this.btnRespuesta_10_2.Name = "btnRespuesta_10_2";
+            this.btnRespuesta_10_2.NormalBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
+            this.btnRespuesta_10_2.NormalColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
+            this.btnRespuesta_10_2.NormalTextColor = System.Drawing.Color.White;
+            this.btnRespuesta_10_2.PressBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(147)))), ((int)(((byte)(195)))));
+            this.btnRespuesta_10_2.PressColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(147)))), ((int)(((byte)(195)))));
+            this.btnRespuesta_10_2.PressTextColor = System.Drawing.Color.White;
+            this.btnRespuesta_10_2.Size = new System.Drawing.Size(185, 79);
+            this.btnRespuesta_10_2.Style = MetroSet_UI.Enums.Style.Light;
+            this.btnRespuesta_10_2.StyleManager = null;
+            this.btnRespuesta_10_2.TabIndex = 14;
+            this.btnRespuesta_10_2.Tag = "Hide";
+            this.btnRespuesta_10_2.Text = "2";
+            this.btnRespuesta_10_2.ThemeAuthor = "Narwin";
+            this.btnRespuesta_10_2.ThemeName = "MetroLite";
+            // 
+            // btnRespuesta_10_1
+            // 
+            this.btnRespuesta_10_1.DisabledBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
+            this.btnRespuesta_10_1.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
+            this.btnRespuesta_10_1.DisabledForeColor = System.Drawing.Color.Gray;
+            this.btnRespuesta_10_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnRespuesta_10_1.HoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(207)))), ((int)(((byte)(255)))));
+            this.btnRespuesta_10_1.HoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(207)))), ((int)(((byte)(255)))));
+            this.btnRespuesta_10_1.HoverTextColor = System.Drawing.Color.White;
+            this.btnRespuesta_10_1.IsDerivedStyle = true;
+            this.btnRespuesta_10_1.Location = new System.Drawing.Point(76, 79);
+            this.btnRespuesta_10_1.Name = "btnRespuesta_10_1";
+            this.btnRespuesta_10_1.NormalBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
+            this.btnRespuesta_10_1.NormalColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
+            this.btnRespuesta_10_1.NormalTextColor = System.Drawing.Color.White;
+            this.btnRespuesta_10_1.PressBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(147)))), ((int)(((byte)(195)))));
+            this.btnRespuesta_10_1.PressColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(147)))), ((int)(((byte)(195)))));
+            this.btnRespuesta_10_1.PressTextColor = System.Drawing.Color.White;
+            this.btnRespuesta_10_1.Size = new System.Drawing.Size(185, 79);
+            this.btnRespuesta_10_1.Style = MetroSet_UI.Enums.Style.Light;
+            this.btnRespuesta_10_1.StyleManager = null;
+            this.btnRespuesta_10_1.TabIndex = 13;
+            this.btnRespuesta_10_1.Tag = "Hide";
+            this.btnRespuesta_10_1.Text = "1";
+            this.btnRespuesta_10_1.ThemeAuthor = "Narwin";
+            this.btnRespuesta_10_1.ThemeName = "MetroLite";
+            // 
+            // lblPregunta_10
+            // 
+            this.lblPregunta_10.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblPregunta_10.IsDerivedStyle = true;
+            this.lblPregunta_10.Location = new System.Drawing.Point(19, 29);
+            this.lblPregunta_10.Name = "lblPregunta_10";
+            this.lblPregunta_10.Size = new System.Drawing.Size(699, 23);
+            this.lblPregunta_10.Style = MetroSet_UI.Enums.Style.Light;
+            this.lblPregunta_10.StyleManager = null;
+            this.lblPregunta_10.TabIndex = 12;
+            this.lblPregunta_10.Text = "metroSetLabel1";
+            this.lblPregunta_10.ThemeAuthor = "Narwin";
+            this.lblPregunta_10.ThemeName = "MetroLite";
+            // 
             // QuestionsMetro
             // 
             this.AllowResize = false;
@@ -1494,7 +1818,6 @@ namespace CienAppWF
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.QuestionsMetro_FormClosed);
             this.Load += new System.EventHandler(this.QuestionsMetro_Load);
             this.metroSetTabControl1.ResumeLayout(false);
-            this.tabPage8.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage2.ResumeLayout(false);
             this.tabPage3.ResumeLayout(false);
@@ -1502,6 +1825,9 @@ namespace CienAppWF
             this.tabPage5.ResumeLayout(false);
             this.tabPage6.ResumeLayout(false);
             this.tabPage7.ResumeLayout(false);
+            this.tabPage8.ResumeLayout(false);
+            this.tabPage9.ResumeLayout(false);
+            this.tabPage10.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -1568,5 +1894,17 @@ namespace CienAppWF
         private MetroSet_UI.Controls.MetroSetButton btnRespuesta_8_2;
         private MetroSet_UI.Controls.MetroSetButton btnRespuesta_8_1;
         private MetroSet_UI.Controls.MetroSetLabel lblPregunta_8;
+        private MetroSet_UI.Controls.MetroSetButton btnRespuesta_9_5;
+        private MetroSet_UI.Controls.MetroSetButton btnRespuesta_9_4;
+        private MetroSet_UI.Controls.MetroSetButton btnRespuesta_9_3;
+        private MetroSet_UI.Controls.MetroSetButton btnRespuesta_9_2;
+        private MetroSet_UI.Controls.MetroSetButton btnRespuesta_9_1;
+        private MetroSet_UI.Controls.MetroSetLabel lblPregunta_9;
+        private MetroSet_UI.Controls.MetroSetButton btnRespuesta_10_5;
+        private MetroSet_UI.Controls.MetroSetButton btnRespuesta_10_4;
+        private MetroSet_UI.Controls.MetroSetButton btnRespuesta_10_3;
+        private MetroSet_UI.Controls.MetroSetButton btnRespuesta_10_2;
+        private MetroSet_UI.Controls.MetroSetButton btnRespuesta_10_1;
+        private MetroSet_UI.Controls.MetroSetLabel lblPregunta_10;
     }
 }
