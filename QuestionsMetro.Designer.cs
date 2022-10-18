@@ -90,13 +90,13 @@ namespace CienAppWF
             this.btnRespuesta_8_1 = new MetroSet_UI.Controls.MetroSetButton();
             this.lblPregunta_8 = new MetroSet_UI.Controls.MetroSetLabel();
             this.tabPage9 = new System.Windows.Forms.TabPage();
-            this.tabPage10 = new System.Windows.Forms.TabPage();
             this.btnRespuesta_9_5 = new MetroSet_UI.Controls.MetroSetButton();
             this.btnRespuesta_9_4 = new MetroSet_UI.Controls.MetroSetButton();
             this.btnRespuesta_9_3 = new MetroSet_UI.Controls.MetroSetButton();
             this.btnRespuesta_9_2 = new MetroSet_UI.Controls.MetroSetButton();
             this.btnRespuesta_9_1 = new MetroSet_UI.Controls.MetroSetButton();
             this.lblPregunta_9 = new MetroSet_UI.Controls.MetroSetLabel();
+            this.tabPage10 = new System.Windows.Forms.TabPage();
             this.btnRespuesta_10_5 = new MetroSet_UI.Controls.MetroSetButton();
             this.btnRespuesta_10_4 = new MetroSet_UI.Controls.MetroSetButton();
             this.btnRespuesta_10_3 = new MetroSet_UI.Controls.MetroSetButton();
@@ -1493,20 +1493,6 @@ namespace CienAppWF
             this.tabPage9.TabIndex = 8;
             this.tabPage9.Text = "Pregunta 9";
             // 
-            // tabPage10
-            // 
-            this.tabPage10.Controls.Add(this.btnRespuesta_10_5);
-            this.tabPage10.Controls.Add(this.btnRespuesta_10_4);
-            this.tabPage10.Controls.Add(this.btnRespuesta_10_3);
-            this.tabPage10.Controls.Add(this.btnRespuesta_10_2);
-            this.tabPage10.Controls.Add(this.btnRespuesta_10_1);
-            this.tabPage10.Controls.Add(this.lblPregunta_10);
-            this.tabPage10.Location = new System.Drawing.Point(4, 42);
-            this.tabPage10.Name = "tabPage10";
-            this.tabPage10.Size = new System.Drawing.Size(906, 303);
-            this.tabPage10.TabIndex = 9;
-            this.tabPage10.Text = "Pregunta 10";
-            // 
             // btnRespuesta_9_5
             // 
             this.btnRespuesta_9_5.DisabledBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
@@ -1655,6 +1641,20 @@ namespace CienAppWF
             this.lblPregunta_9.Text = "metroSetLabel1";
             this.lblPregunta_9.ThemeAuthor = "Narwin";
             this.lblPregunta_9.ThemeName = "MetroLite";
+            // 
+            // tabPage10
+            // 
+            this.tabPage10.Controls.Add(this.btnRespuesta_10_5);
+            this.tabPage10.Controls.Add(this.btnRespuesta_10_4);
+            this.tabPage10.Controls.Add(this.btnRespuesta_10_3);
+            this.tabPage10.Controls.Add(this.btnRespuesta_10_2);
+            this.tabPage10.Controls.Add(this.btnRespuesta_10_1);
+            this.tabPage10.Controls.Add(this.lblPregunta_10);
+            this.tabPage10.Location = new System.Drawing.Point(4, 42);
+            this.tabPage10.Name = "tabPage10";
+            this.tabPage10.Size = new System.Drawing.Size(906, 303);
+            this.tabPage10.TabIndex = 9;
+            this.tabPage10.Text = "Pregunta 10";
             // 
             // btnRespuesta_10_5
             // 
@@ -1814,6 +1814,7 @@ namespace CienAppWF
             this.Controls.Add(this.metroSetTabControl1);
             this.Controls.Add(this.metroSetControlBox1);
             this.Name = "QuestionsMetro";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Preguntas correspondiente a ";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.QuestionsMetro_FormClosed);
             this.Load += new System.EventHandler(this.QuestionsMetro_Load);
