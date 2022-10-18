@@ -15,7 +15,7 @@ namespace CienAppWF
 {
     public partial class Encuestas : MetroSetForm
     {
-        private readonly string CONN_STR = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=D:\\Projects\\cienargentinosapp\\CienAppWF\\Database1.mdf;Integrated Security=True";
+        private readonly string CONN_STR = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=E:\\Personales\\CienAppWF\\Database1.mdf;Integrated Security=True";
         private SqlConnection dbConnection;
 
         public Encuestas()

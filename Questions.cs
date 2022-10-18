@@ -13,7 +13,7 @@ namespace CienAppWF
     {
         public int _idSurvey;
 
-        private readonly string CONN_STR = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=D:\\Projects\\cienargentinosapp\\CienAppWF\\Database1.mdf;Integrated Security=True";
+        private readonly string CONN_STR = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=E:\\Personales\\CienAppWF\\Database1.mdf;Integrated Security=True";
         private SqlConnection dbConnection;
 
         public Questions(int idSurvey)
