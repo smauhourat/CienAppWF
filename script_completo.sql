@@ -210,37 +210,37 @@ go
 insert into answer (IdQuestion, Respuesta, Puntaje) values (5, 'Escritorio', 5)
 go
 
-insert into answer (IdQuestion, Respuesta, Puntaje) values (6, 'Mudarse/Comprar casa', 40)
+insert into answer (IdQuestion, Respuesta, Puntaje) values (6, 'Pizarron', 40)
 go
-insert into answer (IdQuestion, Respuesta, Puntaje) values (6, 'Orientacion de estudio', 30)
+insert into answer (IdQuestion, Respuesta, Puntaje) values (6, 'Profesores/as', 30)
 go
-insert into answer (IdQuestion, Respuesta, Puntaje) values (6, 'Casarse', 15)
+insert into answer (IdQuestion, Respuesta, Puntaje) values (6, 'Alumnos', 15)
 go
-insert into answer (IdQuestion, Respuesta, Puntaje) values (6, 'Terminar una relacion', 10)
+insert into answer (IdQuestion, Respuesta, Puntaje) values (6, 'Bancos', 10)
 go
-insert into answer (IdQuestion, Respuesta, Puntaje) values (6, 'Tener hijos', 5)
-go
-
-insert into answer (IdQuestion, Respuesta, Puntaje) values (7, 'Pizarron', 40)
-go
-insert into answer (IdQuestion, Respuesta, Puntaje) values (7, 'Profesores/as', 30)
-go
-insert into answer (IdQuestion, Respuesta, Puntaje) values (7, 'Alumnos', 15)
-go
-insert into answer (IdQuestion, Respuesta, Puntaje) values (7, 'Bancos', 10)
-go
-insert into answer (IdQuestion, Respuesta, Puntaje) values (7, 'Utiles', 5)
+insert into answer (IdQuestion, Respuesta, Puntaje) values (6, 'Utiles', 5)
 go
 
-insert into answer (IdQuestion, Respuesta, Puntaje) values (8, 'Papa Noel', 40)
+insert into answer (IdQuestion, Respuesta, Puntaje) values (7, 'Papa Noel', 40)
 go
-insert into answer (IdQuestion, Respuesta, Puntaje) values (8, 'Ratón perez', 30)
+insert into answer (IdQuestion, Respuesta, Puntaje) values (7, 'Ratón perez', 30)
 go
-insert into answer (IdQuestion, Respuesta, Puntaje) values (8, 'Reyes magos', 15)
+insert into answer (IdQuestion, Respuesta, Puntaje) values (7, 'Reyes magos', 15)
 go
-insert into answer (IdQuestion, Respuesta, Puntaje) values (8, 'Hada de los dientes', 10)
+insert into answer (IdQuestion, Respuesta, Puntaje) values (7, 'Hada de los dientes', 10)
 go
-insert into answer (IdQuestion, Respuesta, Puntaje) values (8, 'Conejo de pascua', 5)
+insert into answer (IdQuestion, Respuesta, Puntaje) values (7, 'Conejo de pascua', 5)
+go
+
+insert into answer (IdQuestion, Respuesta, Puntaje) values (8, 'Mudarse/Comprar casa', 40)
+go
+insert into answer (IdQuestion, Respuesta, Puntaje) values (8, 'Orientacion de estudio', 30)
+go
+insert into answer (IdQuestion, Respuesta, Puntaje) values (8, 'Casarse', 15)
+go
+insert into answer (IdQuestion, Respuesta, Puntaje) values (8, 'Terminar una relacion', 10)
+go
+insert into answer (IdQuestion, Respuesta, Puntaje) values (8, 'Tener hijos', 5)
 go
 
 insert into answer (IdQuestion, Respuesta, Puntaje) values (9, 'Amor/Amorcito', 40)
