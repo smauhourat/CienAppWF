@@ -106,6 +106,65 @@ namespace CienAppWF
             lblPregunta_9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12);
             lblPregunta_10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12);
 
+            btnRespuesta_1_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16);
+            btnRespuesta_1_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16);
+            btnRespuesta_1_3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16);
+            btnRespuesta_1_4.Font = new System.Drawing.Font("Microsoft Sans Serif", 16);
+            btnRespuesta_1_5.Font = new System.Drawing.Font("Microsoft Sans Serif", 16);
+
+            btnRespuesta_2_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16);
+            btnRespuesta_2_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16);
+            btnRespuesta_2_3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16);
+            btnRespuesta_2_4.Font = new System.Drawing.Font("Microsoft Sans Serif", 16);
+            btnRespuesta_2_5.Font = new System.Drawing.Font("Microsoft Sans Serif", 16);
+
+            btnRespuesta_3_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16);
+            btnRespuesta_3_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16);
+            btnRespuesta_3_3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16);
+            btnRespuesta_3_4.Font = new System.Drawing.Font("Microsoft Sans Serif", 16);
+            btnRespuesta_3_5.Font = new System.Drawing.Font("Microsoft Sans Serif", 16);
+
+            btnRespuesta_4_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16);
+            btnRespuesta_4_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16);
+            btnRespuesta_4_3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16);
+            btnRespuesta_4_4.Font = new System.Drawing.Font("Microsoft Sans Serif", 16);
+            btnRespuesta_4_5.Font = new System.Drawing.Font("Microsoft Sans Serif", 16);
+
+            btnRespuesta_5_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16);
+            btnRespuesta_5_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16);
+            btnRespuesta_5_3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16);
+            btnRespuesta_5_4.Font = new System.Drawing.Font("Microsoft Sans Serif", 16);
+            btnRespuesta_5_5.Font = new System.Drawing.Font("Microsoft Sans Serif", 16);
+
+            btnRespuesta_6_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16);
+            btnRespuesta_6_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16);
+            btnRespuesta_6_3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16);
+            btnRespuesta_6_4.Font = new System.Drawing.Font("Microsoft Sans Serif", 16);
+            btnRespuesta_6_5.Font = new System.Drawing.Font("Microsoft Sans Serif", 16);
+
+            btnRespuesta_7_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16);
+            btnRespuesta_7_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16);
+            btnRespuesta_7_3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16);
+            btnRespuesta_7_4.Font = new System.Drawing.Font("Microsoft Sans Serif", 16);
+            btnRespuesta_7_5.Font = new System.Drawing.Font("Microsoft Sans Serif", 16);
+
+            btnRespuesta_8_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16);
+            btnRespuesta_8_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16);
+            btnRespuesta_8_3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16);
+            btnRespuesta_8_4.Font = new System.Drawing.Font("Microsoft Sans Serif", 16);
+            btnRespuesta_8_5.Font = new System.Drawing.Font("Microsoft Sans Serif", 16);
+
+            btnRespuesta_9_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16);
+            btnRespuesta_9_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16);
+            btnRespuesta_9_3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16);
+            btnRespuesta_9_4.Font = new System.Drawing.Font("Microsoft Sans Serif", 16);
+            btnRespuesta_9_5.Font = new System.Drawing.Font("Microsoft Sans Serif", 16);
+
+            btnRespuesta_10_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16);
+            btnRespuesta_10_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16);
+            btnRespuesta_10_3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16);
+            btnRespuesta_10_4.Font = new System.Drawing.Font("Microsoft Sans Serif", 16);
+            btnRespuesta_10_5.Font = new System.Drawing.Font("Microsoft Sans Serif", 16);
         }
 
         private void btnRespuestaClick(object sender, EventArgs e)
