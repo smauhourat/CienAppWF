@@ -15,6 +15,7 @@ namespace CienAppWF
         {
             InitializeComponent();
             this.Text = "Cien Preguntas.....";
+            this.ForeColor = Color.Black;
         }
 
         private void Home_Load(object sender, EventArgs e)
