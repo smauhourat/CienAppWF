@@ -174,11 +174,13 @@ namespace CienAppWF
             {
                 tag.Hide = false;
                 ((MetroSetButton)sender).Text = tag.Answer;
+                ((MetroSetButton)sender).NormalColor = System.Drawing.Color.ForestGreen;
             }
             else
             {
                 tag.Hide = true;
                 ((MetroSetButton)sender).Text = tag.Number;
+                ((MetroSetButton)sender).NormalColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
             }
         }
 
