@@ -39,8 +39,8 @@ namespace CienAppWF
             int idSurvey = GetIdFromName(((MetroSetButton)sender).Name);
 
             QuestionsMetro questionsForm = new QuestionsMetro(idSurvey, ((MetroSetButton)sender).Text);
-
-            questionsForm.ShowDialog();
+            
+            questionsForm.ShowDialog(this);
         }
 
         private void GetAllSurveys()

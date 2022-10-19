@@ -17,7 +17,8 @@ namespace CienAppWF
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new SurveyMetro());
+            //Application.Run(new SurveyMetro());
+            Application.Run(new Home());
         }
     }
 }

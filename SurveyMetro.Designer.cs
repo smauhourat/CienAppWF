@@ -29,7 +29,6 @@ namespace CienAppWF
         /// </summary>
         private void InitializeComponent()
         {
-            this.metroSetControlBox1 = new MetroSet_UI.Controls.MetroSetControlBox();
             this.metroSetPanel1 = new MetroSet_UI.Controls.MetroSetPanel();
             this.btnEncuesta_5 = new MetroSet_UI.Controls.MetroSetButton();
             this.btnEncuesta_4 = new MetroSet_UI.Controls.MetroSetButton();
@@ -38,32 +37,6 @@ namespace CienAppWF
             this.btnEncuesta_1 = new MetroSet_UI.Controls.MetroSetButton();
             this.metroSetPanel1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // metroSetControlBox1
-            // 
-            this.metroSetControlBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.metroSetControlBox1.CloseHoverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-            this.metroSetControlBox1.CloseHoverForeColor = System.Drawing.Color.White;
-            this.metroSetControlBox1.CloseNormalForeColor = System.Drawing.Color.Gray;
-            this.metroSetControlBox1.DisabledForeColor = System.Drawing.Color.DimGray;
-            this.metroSetControlBox1.IsDerivedStyle = true;
-            this.metroSetControlBox1.Location = new System.Drawing.Point(698, 2);
-            this.metroSetControlBox1.MaximizeBox = true;
-            this.metroSetControlBox1.MaximizeHoverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
-            this.metroSetControlBox1.MaximizeHoverForeColor = System.Drawing.Color.Gray;
-            this.metroSetControlBox1.MaximizeNormalForeColor = System.Drawing.Color.Gray;
-            this.metroSetControlBox1.MinimizeBox = true;
-            this.metroSetControlBox1.MinimizeHoverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
-            this.metroSetControlBox1.MinimizeHoverForeColor = System.Drawing.Color.Gray;
-            this.metroSetControlBox1.MinimizeNormalForeColor = System.Drawing.Color.Gray;
-            this.metroSetControlBox1.Name = "metroSetControlBox1";
-            this.metroSetControlBox1.Size = new System.Drawing.Size(100, 25);
-            this.metroSetControlBox1.Style = MetroSet_UI.Enums.Style.Light;
-            this.metroSetControlBox1.StyleManager = null;
-            this.metroSetControlBox1.TabIndex = 0;
-            this.metroSetControlBox1.Text = "metroSetControlBox1";
-            this.metroSetControlBox1.ThemeAuthor = "Narwin";
-            this.metroSetControlBox1.ThemeName = "MetroLite";
             // 
             // metroSetPanel1
             // 
@@ -228,7 +201,6 @@ namespace CienAppWF
             this.CausesValidation = false;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.metroSetPanel1);
-            this.Controls.Add(this.metroSetControlBox1);
             this.Name = "SurveyMetro";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Encuestas";
@@ -240,8 +212,6 @@ namespace CienAppWF
         }
 
         #endregion
-
-        private MetroSet_UI.Controls.MetroSetControlBox metroSetControlBox1;
         private MetroSet_UI.Controls.MetroSetPanel metroSetPanel1;
         private MetroSet_UI.Controls.MetroSetButton btnEncuesta_1;
         private MetroSet_UI.Controls.MetroSetButton btnEncuesta_5;

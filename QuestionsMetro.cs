@@ -8,7 +8,6 @@ namespace CienAppWF
 {
     public partial class QuestionsMetro : BaseForm
     {
-        //private readonly string CONN_STR = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=E:\\Personales\\CienAppWF\\Database1.mdf;Integrated Security=True";
         private SqlConnection dbConnection;
 
         private int _idSurvey;
