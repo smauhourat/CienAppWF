@@ -326,11 +326,11 @@ namespace CienAppWF
             // 
             // lblPregunta_1
             // 
-            this.lblPregunta_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblPregunta_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lblPregunta_1.IsDerivedStyle = true;
             this.lblPregunta_1.Location = new System.Drawing.Point(19, 29);
             this.lblPregunta_1.Name = "lblPregunta_1";
-            this.lblPregunta_1.Size = new System.Drawing.Size(699, 23);
+            this.lblPregunta_1.Size = new System.Drawing.Size(868, 23);
             this.lblPregunta_1.Style = MetroSet_UI.Enums.Style.Light;
             this.lblPregunta_1.StyleManager = null;
             this.lblPregunta_1.TabIndex = 0;

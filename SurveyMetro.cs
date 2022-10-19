@@ -12,21 +12,18 @@ using System.IO;
 
 namespace CienAppWF
 {
-    public partial class SurveyMetro : MetroSetForm
+    public partial class SurveyMetro : BaseForm
     {
-        private readonly string CONN_STR = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=E:\\Personales\\CienAppWF\\Database1.mdf;Integrated Security=True";
         private SqlConnection dbConnection;
 
         public SurveyMetro()
         {
             InitializeComponent();
-            //metroSetListBox1
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            var database = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Database1.mdf");
-            dbConnection = new SqlConnection(CONN_STR);
+            dbConnection = new SqlConnection(this._connStr);
             dbConnection.Open();
             GetAllSurveys();
         }
@@ -44,7 +41,6 @@ namespace CienAppWF
             QuestionsMetro questionsForm = new QuestionsMetro(idSurvey, ((MetroSetButton)sender).Text);
 
             questionsForm.ShowDialog();
-
         }
 
         private void GetAllSurveys()
@@ -71,7 +67,6 @@ namespace CienAppWF
             {
                 dbConnection.Close();
             }
-
         }
     }
 }

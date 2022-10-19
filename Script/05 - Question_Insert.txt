@@ -1,0 +1,108 @@
+insert into Question (IdSurvey, Pregunta) values (1, 'Que guardas en los bolsillos')
+go
+insert into Question (IdSurvey, Pregunta) values (1, 'Otra forma de decirle a la panza')
+go
+insert into Question (IdSurvey, Pregunta) values (1, 'Qué haces cuando esperas el avión en el aeropuerto?')
+go
+insert into Question (IdSurvey, Pregunta) values (1, 'Objetos con los que les gusta jugar a los perros?')
+go
+insert into Question (IdSurvey, Pregunta) values (1, 'Cuáles son los muebles más usados en la casa?')
+go
+insert into Question (IdSurvey, Pregunta) values (1, 'Personajes en los que creemos cuando somos pequeñ@s?')
+go
+insert into Question (IdSurvey, Pregunta) values (1, 'Decisiones que las gente no toma a la ligera?')
+go
+insert into Question (IdSurvey, Pregunta) values (1, 'Qué podes encontrar en un colegio?')
+go
+insert into Question (IdSurvey, Pregunta) values (1, 'Formas cariñosas de decirle a tu pareja?')
+go
+insert into Question (IdSurvey, Pregunta) values (1, 'Qué instrumento podes tocar desnudo porque te cubre todo el cuerpo?')
+
+
+insert into Question (IdSurvey, Pregunta) values (2, 'Videojuegos mas conocidos?')
+go
+insert into Question (IdSurvey, Pregunta) values (2, 'Qué podes comprar de a 6 unidades?')
+go
+insert into Question (IdSurvey, Pregunta) values (2, 'Refran o frase popular que tenga un animal en ella?')
+go
+insert into Question (IdSurvey, Pregunta) values (2, 'Qué te puede molestar que haga alguien en una ronda de mates?')
+go
+insert into Question (IdSurvey, Pregunta) values (2, 'Dónde te pueden llamar la atención por gritar?')
+go
+insert into Question (IdSurvey, Pregunta) values (2, 'Cuáles son los objetos o servicios que que podemos encontrar digitalizados?')
+go
+insert into Question (IdSurvey, Pregunta) values (2, 'Profesiones u oficios donde podes usar guantes?')
+go
+insert into Question (IdSurvey, Pregunta) values (2, 'Qué podes encontrar en la habitación de un adolescente?')
+go
+insert into Question (IdSurvey, Pregunta) values (2, 'refranes o frases populares que incluya la palabra '''paga o pagar'''?')
+go
+insert into Question (IdSurvey, Pregunta) values (2, 'Qué excusa le pondrías a tus padres cuando te dicen para hacer alguna tarea de la casa y no quieres?')
+
+
+insert into Question (IdSurvey, Pregunta) values (3, 'Qué podes atar o sujetar con una banda elástica?')
+go
+insert into Question (IdSurvey, Pregunta) values (3, 'Cuáles son los mejores jugadores de la selección Argentina?')
+go
+insert into Question (IdSurvey, Pregunta) values (3, 'Cuento o película infantil donde hay un hada?')
+go
+insert into Question (IdSurvey, Pregunta) values (3, 'A que lugar no te gustaría que te acompañen tus papás?')
+go
+insert into Question (IdSurvey, Pregunta) values (3, 'Qué te hace acordar a la navidad?')
+go
+insert into Question (IdSurvey, Pregunta) values (3, 'Sin decir la palabra "LOCO" como le dirías a una persona '''Este esta re...'''?')
+go
+insert into Question (IdSurvey, Pregunta) values (3, 'De qué podes estar enamorado? (dejando afuera a los humanos)?')
+go
+insert into Question (IdSurvey, Pregunta) values (3, 'Completa la frase con una palabra '''No como más, estoy'''?')
+go
+insert into Question (IdSurvey, Pregunta) values (3, 'Qué resulta difícil decirle a un compañero/a?')
+go
+insert into Question (IdSurvey, Pregunta) values (3, 'Qúe le podes regalar a tu pareja si no tienes plata?')
+
+
+insert into Question (IdSurvey, Pregunta) values (4, 'Encuesta 4 Pregunta 1Cuáles son las aplicaciones más usadas en el celular? ')
+go
+insert into Question (IdSurvey, Pregunta) values (4, 'Qué no te podes llevar cuando te mudas de un departamento a otro?
+')
+go
+insert into Question (IdSurvey, Pregunta) values (4, 'Por qué una persona se podría poner colorada?')
+go
+insert into Question (IdSurvey, Pregunta) values (4, 'Ritmos musicales bailables ')
+go
+insert into Question (IdSurvey, Pregunta) values (4, 'Qué esta prohibido hacer en un colegio?')
+go
+insert into Question (IdSurvey, Pregunta) values (4, 'Comenzando con la palabra '''Acá...''' completa lo que se dice cuando te preguntan donde queda un lugar?')
+go
+insert into Question (IdSurvey, Pregunta) values (4, 'Qué podes encontrar en un boliche?')
+go
+insert into Question (IdSurvey, Pregunta) values (4, 'Completa la frase Qué le puede decir un padre a su hijo arto, en un cumpleaños infantil, '''Por favor para de...'''?')
+go
+insert into Question (IdSurvey, Pregunta) values (4, 'Qué objeto o tratamiento te puede dañar el pelo?')
+go
+insert into Question (IdSurvey, Pregunta) values (4, 'En un desfile Qué pude hacer caer a una modelo?')
+
+
+insert into Question (IdSurvey, Pregunta) values (5, 'A pesar de que sea lo mismo Qué encuentras mejor en un hotel 5 estrellas que en tu casa?')
+go
+insert into Question (IdSurvey, Pregunta) values (5, 'Qué se oscurece cuando se moja?')
+go
+insert into Question (IdSurvey, Pregunta) values (5, 'Gestos que haces cuando tenes calor?')
+go
+insert into Question (IdSurvey, Pregunta) values (5, 'Pensando en naves, útiles, elementos para iluminar, armas y partes del cuerpo a que se parece el obelisco?')
+go
+insert into Question (IdSurvey, Pregunta) values (5, 'En que deporte se pueden usar rodilleras?')
+go
+insert into Question (IdSurvey, Pregunta) values (5, 'Por qué no te aceptarían un billete que no es falso?
+')
+go
+insert into Question (IdSurvey, Pregunta) values (5, 'Lugares donde te podes quedar dormido que no sea tu cama?')
+go
+insert into Question (IdSurvey, Pregunta) values (5, 'Por qué una persona tiene que comprar un nuevo telefono?')
+go
+insert into Question (IdSurvey, Pregunta) values (5, 'Por qué alguien vendería, por internet, algo muy caro a un precio muy barato?')
+go
+insert into Question (IdSurvey, Pregunta) values (5, 'Apodos para decirle a un amigo que es pelado?')
+
+
+

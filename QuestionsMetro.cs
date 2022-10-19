@@ -1,19 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
-using System.Drawing;
-using System.Text;
 using System.Windows.Forms;
-using MetroSet_UI.Forms;
 using Microsoft.Data.SqlClient;
 using MetroSet_UI.Controls;
 
 namespace CienAppWF
 {
-    public partial class QuestionsMetro : MetroSetForm
+    public partial class QuestionsMetro : BaseForm
     {
-        private readonly string CONN_STR = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=E:\\Personales\\CienAppWF\\Database1.mdf;Integrated Security=True";
+        //private readonly string CONN_STR = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=E:\\Personales\\CienAppWF\\Database1.mdf;Integrated Security=True";
         private SqlConnection dbConnection;
 
         private int _idSurvey;
@@ -22,9 +17,9 @@ namespace CienAppWF
         public QuestionsMetro(int idSurvey, string surveyName)
         {
             InitializeComponent();
+            AddAnswerHandler();
             _idSurvey = idSurvey;
             _surveyName = surveyName;
-            AddAnswerHandler();
         }
 
         private void AddAnswerHandler()
@@ -88,6 +83,29 @@ namespace CienAppWF
             btnRespuesta_10_3.Click += new EventHandler(btnRespuestaClick);
             btnRespuesta_10_4.Click += new EventHandler(btnRespuestaClick);
             btnRespuesta_10_5.Click += new EventHandler(btnRespuestaClick);
+
+            lblPregunta_1.Width = 868;
+            lblPregunta_2.Width = 868;
+            lblPregunta_3.Width = 868;
+            lblPregunta_4.Width = 868;
+            lblPregunta_5.Width = 868;
+            lblPregunta_6.Width = 868; 
+            lblPregunta_7.Width = 868;
+            lblPregunta_8.Width = 868;
+            lblPregunta_9.Width = 868;
+            lblPregunta_10.Width = 868;
+
+            lblPregunta_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12);
+            lblPregunta_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12);
+            lblPregunta_3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12);
+            lblPregunta_4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12);
+            lblPregunta_5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12);
+            lblPregunta_6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12);
+            lblPregunta_7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12);
+            lblPregunta_8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12);
+            lblPregunta_9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12);
+            lblPregunta_10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12);
+
         }
 
         private void btnRespuestaClick(object sender, EventArgs e)
@@ -103,13 +121,12 @@ namespace CienAppWF
                 tag.Hide = true;
                 ((MetroSetButton)sender).Text = tag.Number;
             }
-
         }
 
         private void QuestionsMetro_Load(object sender, EventArgs e)
         {
             this.Text += " " + this._surveyName;
-            dbConnection = new SqlConnection(CONN_STR);
+            dbConnection = new SqlConnection(base._connStr);
             dbConnection.Open();
 
             GetAllQuestions(this._idSurvey);
@@ -152,14 +169,13 @@ namespace CienAppWF
                 MetroSetButton ctrl = (MetroSetButton)this.Controls.Find("btnRespuesta_"+ indice_1.ToString()+"_" + indice_2.ToString(), true)[0];
                 if (ctrl != null)
                 {
-                    //ctrl.Text = e["Respuesta"].ToString() + " - " + "#" + e["Puntaje"].ToString();
                     ctrl.Text = indice_2.ToString();
                     ctrl.Tag = new ButtonTag(indice_2.ToString(), e["Respuesta"].ToString() + " - " + "#" + e["Puntaje"].ToString());
                 }
             }
         }
 
-            private void QuestionsMetro_FormClosed(object sender, FormClosedEventArgs e)
+        private void QuestionsMetro_FormClosed(object sender, FormClosedEventArgs e)
         {
             if (dbConnection != null)
             {
