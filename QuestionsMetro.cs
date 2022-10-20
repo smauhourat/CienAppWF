@@ -3,6 +3,7 @@ using System.Data;
 using System.Windows.Forms;
 using Microsoft.Data.SqlClient;
 using MetroSet_UI.Controls;
+using System.Linq;
 
 namespace CienAppWF
 {
@@ -189,7 +190,8 @@ namespace CienAppWF
             dbConnection = new SqlConnection(base._connStr);
             dbConnection.Open();
 
-            GetAllQuestions(this._idSurvey);
+            //GetAllQuestions(this._idSurvey);
+            GetAllQuestionsJson(this._idSurvey);
         }
 
         private void GetAllQuestions(int idSurvey)
@@ -213,6 +215,22 @@ namespace CienAppWF
             }
         }
 
+        private void GetAllQuestionsJson(int idSurvey)
+        {
+            var filteredQuestion = base._listQuestion.Where(e => e.IdSurvey == idSurvey);
+
+            foreach (Question q in filteredQuestion)
+            {
+                int indice = int.Parse(q.Id.ToString()) - (10 * (idSurvey - 1));
+                MetroSetLabel ctrl = (MetroSetLabel)this.Controls.Find("lblPregunta_" + indice.ToString(), true)[0];
+                if (ctrl != null)
+                {
+                    ctrl.Text = q.Pregunta.ToString();
+                    GetAllAnswersJson(q.Id, idSurvey);
+                }
+            }
+        }
+
         private void GetAllAnswers(int idQuestion)
         {
             SqlCommand dbCommand = new SqlCommand("SELECT A.Id, B.IdSurvey, A.Respuesta, A.Puntaje FROM Answer A INNER JOIN Question B on A.IdQuestion = B.Id WHERE A.IdQuestion = " + idQuestion.ToString(), dbConnection);
@@ -231,6 +249,23 @@ namespace CienAppWF
                 {
                     ctrl.Text = indice_2.ToString();
                     ctrl.Tag = new ButtonTag(indice_2.ToString(), e["Respuesta"].ToString() + " - " + "#" + e["Puntaje"].ToString());
+                }
+            }
+        }
+
+        private void GetAllAnswersJson(int idQuestion, int idSurvey)
+        {
+            var filteredAnswer = base._listAnswer.Where(e => e.IdQuestion == idQuestion);
+            
+            foreach (Answer a in filteredAnswer)
+            {
+                int indice_1 = idQuestion - (10 * (idSurvey - 1));
+                int indice_2 = a.Id - (5 * (idQuestion - 1));
+                MetroSetButton ctrl = (MetroSetButton)this.Controls.Find("btnRespuesta_" + indice_1.ToString() + "_" + indice_2.ToString(), true)[0];
+                if (ctrl != null)
+                {
+                    ctrl.Text = indice_2.ToString();
+                    ctrl.Tag = new ButtonTag(indice_2.ToString(), a.Respuesta + " - " + "#" + a.Puntaje.ToString());
                 }
             }
         }

@@ -1,0 +1,252 @@
+﻿[
+  {
+    "Id": 1,
+    "IdSurvey": 1,
+    "Pregunta": "Que guardas en los bolsillos"
+  },
+  {
+    "Id": 2,
+    "IdSurvey": 1,
+    "Pregunta": "Otra forma de decirle a la panza"
+  },
+  {
+    "Id": 3,
+    "IdSurvey": 1,
+    "Pregunta": "Qué haces cuando esperas el avión en el aeropuerto?"
+  },
+  {
+    "Id": 4,
+    "IdSurvey": 1,
+    "Pregunta": "Objetos con los que les gusta jugar a los perros?"
+  },
+  {
+    "Id": 5,
+    "IdSurvey": 1,
+    "Pregunta": "Cuáles son los muebles más usados en la casa?"
+  },
+  {
+    "Id": 6,
+    "IdSurvey": 1,
+    "Pregunta": "Personajes en los que creemos cuando somos pequeñ@s?"
+  },
+  {
+    "Id": 7,
+    "IdSurvey": 1,
+    "Pregunta": "Decisiones que las gente no toma a la ligera?"
+  },
+  {
+    "Id": 8,
+    "IdSurvey": 1,
+    "Pregunta": "Qué podes encontrar en un colegio?"
+  },
+  {
+    "Id": 9,
+    "IdSurvey": 1,
+    "Pregunta": "Formas cariñosas de decirle a tu pareja?"
+  },
+  {
+    "Id": 10,
+    "IdSurvey": 1,
+    "Pregunta": "Qué instrumento podes tocar desnudo porque te cubre todo el cuerpo?"
+  },
+  {
+    "Id": 11,
+    "IdSurvey": 2,
+    "Pregunta": "Videojuegos mas conocidos?"
+  },
+  {
+    "Id": 12,
+    "IdSurvey": 2,
+    "Pregunta": "Qué podes comprar de a 6 unidades?"
+  },
+  {
+    "Id": 13,
+    "IdSurvey": 2,
+    "Pregunta": "Refran o frase popular que tenga un animal en ella?"
+  },
+  {
+    "Id": 14,
+    "IdSurvey": 2,
+    "Pregunta": "Qué te puede molestar que haga alguien en una ronda de mates?"
+  },
+  {
+    "Id": 15,
+    "IdSurvey": 2,
+    "Pregunta": "Dónde te pueden llamar la atención por gritar?"
+  },
+  {
+    "Id": 16,
+    "IdSurvey": 2,
+    "Pregunta": "Cuáles son los objetos o servicios que que podemos encontrar digitalizados?"
+  },
+  {
+    "Id": 17,
+    "IdSurvey": 2,
+    "Pregunta": "Profesiones u oficios donde podes usar guantes?"
+  },
+  {
+    "Id": 18,
+    "IdSurvey": 2,
+    "Pregunta": "Qué podes encontrar en la habitación de un adolescente?"
+  },
+  {
+    "Id": 19,
+    "IdSurvey": 2,
+    "Pregunta": "refranes o frases populares que incluya la palabra 'paga o pagar'?"
+  },
+  {
+    "Id": 20,
+    "IdSurvey": 2,
+    "Pregunta": "Qué excusa le pondrías a tus padres cuando te dicen para hacer alguna tarea de la casa y no quieres?"
+  },
+  {
+    "Id": 21,
+    "IdSurvey": 3,
+    "Pregunta": "Qué podes atar o sujetar con una banda elástica?"
+  },
+  {
+    "Id": 22,
+    "IdSurvey": 3,
+    "Pregunta": "Cuáles son los mejores jugadores de la selección Argentina?"
+  },
+  {
+    "Id": 23,
+    "IdSurvey": 3,
+    "Pregunta": "Cuento o película infantil donde hay un hada?"
+  },
+  {
+    "Id": 24,
+    "IdSurvey": 3,
+    "Pregunta": "A que lugar no te gustaría que te acompañen tus papás?"
+  },
+  {
+    "Id": 25,
+    "IdSurvey": 3,
+    "Pregunta": "Qué te hace acordar a la navidad?"
+  },
+  {
+    "Id": 26,
+    "IdSurvey": 3,
+    "Pregunta": "Sin decir la palabra \"LOCO\" como le dirías a una persona 'Este esta re...'?"
+  },
+  {
+    "Id": 27,
+    "IdSurvey": 3,
+    "Pregunta": "De qué podes estar enamorado? (dejando afuera a los humanos)?"
+  },
+  {
+    "Id": 28,
+    "IdSurvey": 3,
+    "Pregunta": "Completa la frase con una palabra 'No como más, estoy'?"
+  },
+  {
+    "Id": 29,
+    "IdSurvey": 3,
+    "Pregunta": "Qué resulta difícil decirle a un compañero\/a?"
+  },
+  {
+    "Id": 30,
+    "IdSurvey": 3,
+    "Pregunta": "Qué le podes regalar a tu pareja si no tienes plata?"
+  },
+  {
+    "Id": 31,
+    "IdSurvey": 4,
+    "Pregunta": "Cuáles son las aplicaciones más usadas en el celular? "
+  },
+  {
+    "Id": 32,
+    "IdSurvey": 4,
+    "Pregunta": "Qué no te podes llevar cuando te mudas de un departamento a otro?\r\n"
+  },
+  {
+    "Id": 33,
+    "IdSurvey": 4,
+    "Pregunta": "Por qué una persona se podría poner colorada?"
+  },
+  {
+    "Id": 34,
+    "IdSurvey": 4,
+    "Pregunta": "Ritmos musicales bailables "
+  },
+  {
+    "Id": 35,
+    "IdSurvey": 4,
+    "Pregunta": "Qué esta prohibido hacer en un colegio?"
+  },
+  {
+    "Id": 36,
+    "IdSurvey": 4,
+    "Pregunta": "Comenzando con la palabra 'Acá...' completa lo que se dice cuando te preguntan donde queda un lugar?"
+  },
+  {
+    "Id": 37,
+    "IdSurvey": 4,
+    "Pregunta": "Qué podes encontrar en un boliche?"
+  },
+  {
+    "Id": 38,
+    "IdSurvey": 4,
+    "Pregunta": "Completa la frase Qué le puede decir un padre a su hijo harto, en un cumpleaños infantil, 'Por favor para de...'?"
+  },
+  {
+    "Id": 39,
+    "IdSurvey": 4,
+    "Pregunta": "Qué objeto o tratamiento te puede dañar el pelo?"
+  },
+  {
+    "Id": 40,
+    "IdSurvey": 4,
+    "Pregunta": "En un desfile Qué pude hacer caer a una modelo?"
+  },
+  {
+    "Id": 41,
+    "IdSurvey": 5,
+    "Pregunta": "A pesar de que sea lo mismo Qué encuentras mejor en un hotel 5 estrellas que en tu casa?"
+  },
+  {
+    "Id": 42,
+    "IdSurvey": 5,
+    "Pregunta": "Qué se oscurece cuando se moja?"
+  },
+  {
+    "Id": 43,
+    "IdSurvey": 5,
+    "Pregunta": "Gestos que haces cuando tenes calor?"
+  },
+  {
+    "Id": 44,
+    "IdSurvey": 5,
+    "Pregunta": "Pensando en naves, útiles, elementos para iluminar, armas y partes del cuerpo a que se parece el obelisco?"
+  },
+  {
+    "Id": 45,
+    "IdSurvey": 5,
+    "Pregunta": "En que deporte se pueden usar rodilleras?"
+  },
+  {
+    "Id": 46,
+    "IdSurvey": 5,
+    "Pregunta": "Por qué no te aceptarían un billete que no es falso?"
+  },
+  {
+    "Id": 47,
+    "IdSurvey": 5,
+    "Pregunta": "Lugares donde te podes quedar dormido que no sea tu cama?"
+  },
+  {
+    "Id": 48,
+    "IdSurvey": 5,
+    "Pregunta": "Por qué una persona tiene que comprar un nuevo telefono?"
+  },
+  {
+    "Id": 49,
+    "IdSurvey": 5,
+    "Pregunta": "Por qué alguien vendería, por internet, algo muy caro a un precio muy barato?"
+  },
+  {
+    "Id": 50,
+    "IdSurvey": 5,
+    "Pregunta": "Apodos para decirle a un amigo que es pelado?"
+  }
+]

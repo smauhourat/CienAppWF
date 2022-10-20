@@ -9,6 +9,7 @@ using MetroSet_UI.Forms;
 using Microsoft.Data.SqlClient;
 using MetroSet_UI.Controls;
 using System.IO;
+using System.Linq;
 
 namespace CienAppWF
 {
@@ -25,7 +26,8 @@ namespace CienAppWF
         {
             dbConnection = new SqlConnection(this._connStr);
             dbConnection.Open();
-            GetAllSurveys();
+            //GetAllSurveys();
+            GetAllSurveysJson();
         }
 
         private int GetIdFromName(string name)
@@ -56,6 +58,17 @@ namespace CienAppWF
             {
                 MetroSetButton ctrl = (MetroSetButton)this.Controls.Find("btnEncuesta_" + e["Id"].ToString(), true)[0];
                 ctrl.Text = e["Encuesta"].ToString();
+
+                ctrl.Click += btnClickEvent;
+            }
+        }
+
+        private void GetAllSurveysJson()
+        {
+            foreach (Survey s in base._listSurvey)
+            {
+                MetroSetButton ctrl = (MetroSetButton)this.Controls.Find("btnEncuesta_" + s.Id, true)[0];
+                ctrl.Text = s.Encuesta.ToString();
 
                 ctrl.Click += btnClickEvent;
             }

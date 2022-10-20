@@ -1,0 +1,1502 @@
+﻿[
+  {
+    "Id": 1,
+    "IdQuestion": 1,
+    "Respuesta": "Celular",
+    "Puntaje": 40
+  },
+  {
+    "Id": 2,
+    "IdQuestion": 1,
+    "Respuesta": "Llaves",
+    "Puntaje": 30
+  },
+  {
+    "Id": 3,
+    "IdQuestion": 1,
+    "Respuesta": "Billetera\/Dinero",
+    "Puntaje": 15
+  },
+  {
+    "Id": 4,
+    "IdQuestion": 1,
+    "Respuesta": "Auriculares",
+    "Puntaje": 10
+  },
+  {
+    "Id": 5,
+    "IdQuestion": 1,
+    "Respuesta": "Pañuelitos",
+    "Puntaje": 5
+  },
+  {
+    "Id": 6,
+    "IdQuestion": 2,
+    "Respuesta": "Estomago",
+    "Puntaje": 40
+  },
+  {
+    "Id": 7,
+    "IdQuestion": 2,
+    "Respuesta": "Barriga",
+    "Puntaje": 30
+  },
+  {
+    "Id": 8,
+    "IdQuestion": 2,
+    "Respuesta": "Zapan",
+    "Puntaje": 15
+  },
+  {
+    "Id": 9,
+    "IdQuestion": 2,
+    "Respuesta": "Abdomen",
+    "Puntaje": 10
+  },
+  {
+    "Id": 10,
+    "IdQuestion": 2,
+    "Respuesta": "Pancita",
+    "Puntaje": 5
+  },
+  {
+    "Id": 11,
+    "IdQuestion": 3,
+    "Respuesta": "Usar el celular",
+    "Puntaje": 40
+  },
+  {
+    "Id": 12,
+    "IdQuestion": 3,
+    "Respuesta": "Dormir",
+    "Puntaje": 30
+  },
+  {
+    "Id": 13,
+    "IdQuestion": 3,
+    "Respuesta": "Escuchar musica",
+    "Puntaje": 15
+  },
+  {
+    "Id": 14,
+    "IdQuestion": 3,
+    "Respuesta": "Comer\/beber",
+    "Puntaje": 10
+  },
+  {
+    "Id": 15,
+    "IdQuestion": 3,
+    "Respuesta": "Ir al free shop",
+    "Puntaje": 5
+  },
+  {
+    "Id": 16,
+    "IdQuestion": 4,
+    "Respuesta": "Pelotas",
+    "Puntaje": 40
+  },
+  {
+    "Id": 17,
+    "IdQuestion": 4,
+    "Respuesta": "Huesos",
+    "Puntaje": 30
+  },
+  {
+    "Id": 18,
+    "IdQuestion": 4,
+    "Respuesta": "Peluches\/Jueguetes",
+    "Puntaje": 15
+  },
+  {
+    "Id": 19,
+    "IdQuestion": 4,
+    "Respuesta": "Medias\/Zapatillas",
+    "Puntaje": 10
+  },
+  {
+    "Id": 20,
+    "IdQuestion": 4,
+    "Respuesta": "Botellas",
+    "Puntaje": 5
+  },
+  {
+    "Id": 21,
+    "IdQuestion": 5,
+    "Respuesta": "Silla",
+    "Puntaje": 40
+  },
+  {
+    "Id": 22,
+    "IdQuestion": 5,
+    "Respuesta": "Mesa",
+    "Puntaje": 30
+  },
+  {
+    "Id": 23,
+    "IdQuestion": 5,
+    "Respuesta": "Cama",
+    "Puntaje": 15
+  },
+  {
+    "Id": 24,
+    "IdQuestion": 5,
+    "Respuesta": "Sillón",
+    "Puntaje": 10
+  },
+  {
+    "Id": 25,
+    "IdQuestion": 5,
+    "Respuesta": "Escritorio",
+    "Puntaje": 5
+  },
+  {
+    "Id": 26,
+    "IdQuestion": 6,
+    "Respuesta": "Papa Noel",
+    "Puntaje": 40
+  },
+  {
+    "Id": 27,
+    "IdQuestion": 6,
+    "Respuesta": "Ratón perez",
+    "Puntaje": 30
+  },
+  {
+    "Id": 28,
+    "IdQuestion": 6,
+    "Respuesta": "Reyes magos",
+    "Puntaje": 15
+  },
+  {
+    "Id": 29,
+    "IdQuestion": 6,
+    "Respuesta": "Hada de los dientes",
+    "Puntaje": 10
+  },
+  {
+    "Id": 30,
+    "IdQuestion": 6,
+    "Respuesta": "Conejo de pascua",
+    "Puntaje": 5
+  },
+  {
+    "Id": 31,
+    "IdQuestion": 7,
+    "Respuesta": "Mudarse\/Comprar casa",
+    "Puntaje": 40
+  },
+  {
+    "Id": 32,
+    "IdQuestion": 7,
+    "Respuesta": "Orientacion de estudio",
+    "Puntaje": 30
+  },
+  {
+    "Id": 33,
+    "IdQuestion": 7,
+    "Respuesta": "Casarse",
+    "Puntaje": 15
+  },
+  {
+    "Id": 34,
+    "IdQuestion": 7,
+    "Respuesta": "Terminar una relacion",
+    "Puntaje": 10
+  },
+  {
+    "Id": 35,
+    "IdQuestion": 7,
+    "Respuesta": "Tener hijos",
+    "Puntaje": 5
+  },
+  {
+    "Id": 36,
+    "IdQuestion": 8,
+    "Respuesta": "Pizarron",
+    "Puntaje": 40
+  },
+  {
+    "Id": 37,
+    "IdQuestion": 8,
+    "Respuesta": "Profesores\/as",
+    "Puntaje": 30
+  },
+  {
+    "Id": 38,
+    "IdQuestion": 8,
+    "Respuesta": "Alumnos",
+    "Puntaje": 15
+  },
+  {
+    "Id": 39,
+    "IdQuestion": 8,
+    "Respuesta": "Bancos",
+    "Puntaje": 10
+  },
+  {
+    "Id": 40,
+    "IdQuestion": 8,
+    "Respuesta": "Utiles",
+    "Puntaje": 5
+  },
+  {
+    "Id": 41,
+    "IdQuestion": 9,
+    "Respuesta": "Amor\/Amorcito",
+    "Puntaje": 40
+  },
+  {
+    "Id": 42,
+    "IdQuestion": 9,
+    "Respuesta": "Bebe",
+    "Puntaje": 30
+  },
+  {
+    "Id": 43,
+    "IdQuestion": 9,
+    "Respuesta": "Gordo\/a",
+    "Puntaje": 15
+  },
+  {
+    "Id": 44,
+    "IdQuestion": 9,
+    "Respuesta": "Mi vida",
+    "Puntaje": 10
+  },
+  {
+    "Id": 45,
+    "IdQuestion": 9,
+    "Respuesta": "Mi cielo",
+    "Puntaje": 5
+  },
+  {
+    "Id": 46,
+    "IdQuestion": 10,
+    "Respuesta": "Violonchelo",
+    "Puntaje": 40
+  },
+  {
+    "Id": 47,
+    "IdQuestion": 10,
+    "Respuesta": "Guitarra",
+    "Puntaje": 30
+  },
+  {
+    "Id": 48,
+    "IdQuestion": 10,
+    "Respuesta": "Piano",
+    "Puntaje": 15
+  },
+  {
+    "Id": 49,
+    "IdQuestion": 10,
+    "Respuesta": "Bateria",
+    "Puntaje": 10
+  },
+  {
+    "Id": 50,
+    "IdQuestion": 10,
+    "Respuesta": "Tuba",
+    "Puntaje": 5
+  },
+  {
+    "Id": 51,
+    "IdQuestion": 11,
+    "Respuesta": "Minecraft",
+    "Puntaje": 40
+  },
+  {
+    "Id": 52,
+    "IdQuestion": 11,
+    "Respuesta": "Mario Bros\/Kart",
+    "Puntaje": 30
+  },
+  {
+    "Id": 53,
+    "IdQuestion": 11,
+    "Respuesta": "Fifa",
+    "Puntaje": 15
+  },
+  {
+    "Id": 54,
+    "IdQuestion": 11,
+    "Respuesta": "GTA",
+    "Puntaje": 10
+  },
+  {
+    "Id": 55,
+    "IdQuestion": 11,
+    "Respuesta": "Roblox",
+    "Puntaje": 5
+  },
+  {
+    "Id": 56,
+    "IdQuestion": 12,
+    "Respuesta": "Latas con bebidas",
+    "Puntaje": 40
+  },
+  {
+    "Id": 57,
+    "IdQuestion": 12,
+    "Respuesta": "Huevos",
+    "Puntaje": 30
+  },
+  {
+    "Id": 58,
+    "IdQuestion": 12,
+    "Respuesta": "Medialunas",
+    "Puntaje": 15
+  },
+  {
+    "Id": 59,
+    "IdQuestion": 12,
+    "Respuesta": "Empanadas",
+    "Puntaje": 10
+  },
+  {
+    "Id": 60,
+    "IdQuestion": 12,
+    "Respuesta": "Alfajores",
+    "Puntaje": 5
+  },
+  {
+    "Id": 61,
+    "IdQuestion": 13,
+    "Respuesta": "A caballo regalado no se le miran los dientes",
+    "Puntaje": 40
+  },
+  {
+    "Id": 62,
+    "IdQuestion": 13,
+    "Respuesta": "Perro que ladra no muerde",
+    "Puntaje": 30
+  },
+  {
+    "Id": 63,
+    "IdQuestion": 13,
+    "Respuesta": "En boca cerrada no entran moscas",
+    "Puntaje": 15
+  },
+  {
+    "Id": 64,
+    "IdQuestion": 13,
+    "Respuesta": "Por la plata baila el mono",
+    "Puntaje": 10
+  },
+  {
+    "Id": 65,
+    "IdQuestion": 13,
+    "Respuesta": "El burro adelante para que no se espante",
+    "Puntaje": 5
+  },
+  {
+    "Id": 66,
+    "IdQuestion": 14,
+    "Respuesta": "Que muevan la bombilla",
+    "Puntaje": 40
+  },
+  {
+    "Id": 67,
+    "IdQuestion": 14,
+    "Respuesta": "Que no lo pase\/Que tome solo",
+    "Puntaje": 30
+  },
+  {
+    "Id": 68,
+    "IdQuestion": 14,
+    "Respuesta": "Que tarde mucho en tomarlo",
+    "Puntaje": 15
+  },
+  {
+    "Id": 69,
+    "IdQuestion": 14,
+    "Respuesta": "Que lo babe\/Que lo escupa",
+    "Puntaje": 10
+  },
+  {
+    "Id": 70,
+    "IdQuestion": 14,
+    "Respuesta": "Que le ponga azúcar\/edulcorante",
+    "Puntaje": 5
+  },
+  {
+    "Id": 71,
+    "IdQuestion": 15,
+    "Respuesta": "Colegio",
+    "Puntaje": 40
+  },
+  {
+    "Id": 72,
+    "IdQuestion": 15,
+    "Respuesta": "Biblioteca",
+    "Puntaje": 30
+  },
+  {
+    "Id": 73,
+    "IdQuestion": 15,
+    "Respuesta": "Cine\/Teatro",
+    "Puntaje": 15
+  },
+  {
+    "Id": 74,
+    "IdQuestion": 15,
+    "Respuesta": "Iglesia\/Misa",
+    "Puntaje": 10
+  },
+  {
+    "Id": 75,
+    "IdQuestion": 15,
+    "Respuesta": "Hospital",
+    "Puntaje": 5
+  },
+  {
+    "Id": 76,
+    "IdQuestion": 16,
+    "Respuesta": "Libro",
+    "Puntaje": 40
+  },
+  {
+    "Id": 77,
+    "IdQuestion": 16,
+    "Respuesta": "Cursos\/Clases",
+    "Puntaje": 30
+  },
+  {
+    "Id": 78,
+    "IdQuestion": 16,
+    "Respuesta": "Cine\/Entretenimiento",
+    "Puntaje": 15
+  },
+  {
+    "Id": 79,
+    "IdQuestion": 16,
+    "Respuesta": "Tarjetas",
+    "Puntaje": 10
+  },
+  {
+    "Id": 80,
+    "IdQuestion": 16,
+    "Respuesta": "Mapa\/GPS",
+    "Puntaje": 5
+  },
+  {
+    "Id": 81,
+    "IdQuestion": 17,
+    "Respuesta": "Medico\/Cirujano",
+    "Puntaje": 40
+  },
+  {
+    "Id": 82,
+    "IdQuestion": 17,
+    "Respuesta": "Dentista",
+    "Puntaje": 30
+  },
+  {
+    "Id": 83,
+    "IdQuestion": 17,
+    "Respuesta": "Servicio de limpieza",
+    "Puntaje": 15
+  },
+  {
+    "Id": 84,
+    "IdQuestion": 17,
+    "Respuesta": "Albañil\/Obrero",
+    "Puntaje": 10
+  },
+  {
+    "Id": 85,
+    "IdQuestion": 17,
+    "Respuesta": "Arquero",
+    "Puntaje": 5
+  },
+  {
+    "Id": 86,
+    "IdQuestion": 18,
+    "Respuesta": "Ropa sucia",
+    "Puntaje": 40
+  },
+  {
+    "Id": 87,
+    "IdQuestion": 18,
+    "Respuesta": "Posters",
+    "Puntaje": 30
+  },
+  {
+    "Id": 88,
+    "IdQuestion": 18,
+    "Respuesta": "Computadora",
+    "Puntaje": 15
+  },
+  {
+    "Id": 89,
+    "IdQuestion": 18,
+    "Respuesta": "Álbum de figuritas",
+    "Puntaje": 10
+  },
+  {
+    "Id": 90,
+    "IdQuestion": 18,
+    "Respuesta": "Vasos",
+    "Puntaje": 5
+  },
+  {
+    "Id": 91,
+    "IdQuestion": 19,
+    "Respuesta": "Me las vas a pagar",
+    "Puntaje": 40
+  },
+  {
+    "Id": 92,
+    "IdQuestion": 19,
+    "Respuesta": "El que las hace las paga",
+    "Puntaje": 30
+  },
+  {
+    "Id": 93,
+    "IdQuestion": 19,
+    "Respuesta": "Pagar con la misma moneda",
+    "Puntaje": 15
+  },
+  {
+    "Id": 94,
+    "IdQuestion": 19,
+    "Respuesta": "No me pagan lo suficiente",
+    "Puntaje": 10
+  },
+  {
+    "Id": 95,
+    "IdQuestion": 19,
+    "Respuesta": "El que rompe paga",
+    "Puntaje": 5
+  },
+  {
+    "Id": 96,
+    "IdQuestion": 20,
+    "Respuesta": "Estoy estudiando",
+    "Puntaje": 40
+  },
+  {
+    "Id": 97,
+    "IdQuestion": 20,
+    "Respuesta": "Me siento mal",
+    "Puntaje": 30
+  },
+  {
+    "Id": 98,
+    "IdQuestion": 20,
+    "Respuesta": "Estoy cansado\/a",
+    "Puntaje": 15
+  },
+  {
+    "Id": 99,
+    "IdQuestion": 20,
+    "Respuesta": "Más tarde lo hago",
+    "Puntaje": 10
+  },
+  {
+    "Id": 100,
+    "IdQuestion": 20,
+    "Respuesta": "Estoy ocupado\/a",
+    "Puntaje": 5
+  },
+  {
+    "Id": 101,
+    "IdQuestion": 21,
+    "Respuesta": "Pelo",
+    "Puntaje": 40
+  },
+  {
+    "Id": 102,
+    "IdQuestion": 21,
+    "Respuesta": "Lápices\/Lapiceras",
+    "Puntaje": 30
+  },
+  {
+    "Id": 103,
+    "IdQuestion": 21,
+    "Respuesta": "Figuritas",
+    "Puntaje": 15
+  },
+  {
+    "Id": 104,
+    "IdQuestion": 21,
+    "Respuesta": "Plata",
+    "Puntaje": 10
+  },
+  {
+    "Id": 105,
+    "IdQuestion": 21,
+    "Respuesta": "Cartas",
+    "Puntaje": 5
+  },
+  {
+    "Id": 106,
+    "IdQuestion": 22,
+    "Respuesta": "Leonel Messi",
+    "Puntaje": 40
+  },
+  {
+    "Id": 107,
+    "IdQuestion": 22,
+    "Respuesta": "Ángel Di María (Fideo)",
+    "Puntaje": 30
+  },
+  {
+    "Id": 108,
+    "IdQuestion": 22,
+    "Respuesta": "Julián Álvarez",
+    "Puntaje": 15
+  },
+  {
+    "Id": 109,
+    "IdQuestion": 22,
+    "Respuesta": "Rodrigo De Paul",
+    "Puntaje": 10
+  },
+  {
+    "Id": 110,
+    "IdQuestion": 22,
+    "Respuesta": "Emiliano Martínez (Dibu)",
+    "Puntaje": 5
+  },
+  {
+    "Id": 111,
+    "IdQuestion": 23,
+    "Respuesta": "Peter Pan\/Tinkerbelle",
+    "Puntaje": 40
+  },
+  {
+    "Id": 112,
+    "IdQuestion": 23,
+    "Respuesta": "Cenicienta",
+    "Puntaje": 30
+  },
+  {
+    "Id": 113,
+    "IdQuestion": 23,
+    "Respuesta": "Pinocho",
+    "Puntaje": 15
+  },
+  {
+    "Id": 114,
+    "IdQuestion": 23,
+    "Respuesta": "Barbie",
+    "Puntaje": 10
+  },
+  {
+    "Id": 115,
+    "IdQuestion": 23,
+    "Respuesta": "La Bella Durmiente",
+    "Puntaje": 5
+  },
+  {
+    "Id": 116,
+    "IdQuestion": 24,
+    "Respuesta": "Boliche",
+    "Puntaje": 40
+  },
+  {
+    "Id": 117,
+    "IdQuestion": 24,
+    "Respuesta": "Una cita",
+    "Puntaje": 30
+  },
+  {
+    "Id": 118,
+    "IdQuestion": 24,
+    "Respuesta": "Una salida con amigos",
+    "Puntaje": 15
+  },
+  {
+    "Id": 119,
+    "IdQuestion": 24,
+    "Respuesta": "Colegio",
+    "Puntaje": 10
+  },
+  {
+    "Id": 120,
+    "IdQuestion": 24,
+    "Respuesta": "Medico",
+    "Puntaje": 5
+  },
+  {
+    "Id": 121,
+    "IdQuestion": 25,
+    "Respuesta": "Comida",
+    "Puntaje": 40
+  },
+  {
+    "Id": 122,
+    "IdQuestion": 25,
+    "Respuesta": "Luces de colores",
+    "Puntaje": 30
+  },
+  {
+    "Id": 123,
+    "IdQuestion": 25,
+    "Respuesta": "Color rojo\/verde",
+    "Puntaje": 15
+  },
+  {
+    "Id": 124,
+    "IdQuestion": 25,
+    "Respuesta": "Regalos",
+    "Puntaje": 10
+  },
+  {
+    "Id": 125,
+    "IdQuestion": 25,
+    "Respuesta": "Arboles",
+    "Puntaje": 5
+  },
+  {
+    "Id": 126,
+    "IdQuestion": 26,
+    "Respuesta": "Chapa",
+    "Puntaje": 40
+  },
+  {
+    "Id": 127,
+    "IdQuestion": 26,
+    "Respuesta": "Pirado",
+    "Puntaje": 30
+  },
+  {
+    "Id": 128,
+    "IdQuestion": 26,
+    "Respuesta": "Fumado",
+    "Puntaje": 15
+  },
+  {
+    "Id": 129,
+    "IdQuestion": 26,
+    "Respuesta": "Chiflado",
+    "Puntaje": 10
+  },
+  {
+    "Id": 130,
+    "IdQuestion": 26,
+    "Respuesta": "Demente",
+    "Puntaje": 5
+  },
+  {
+    "Id": 131,
+    "IdQuestion": 27,
+    "Respuesta": "Mascotas",
+    "Puntaje": 40
+  },
+  {
+    "Id": 132,
+    "IdQuestion": 27,
+    "Respuesta": "Comida",
+    "Puntaje": 30
+  },
+  {
+    "Id": 133,
+    "IdQuestion": 27,
+    "Respuesta": "Celular",
+    "Puntaje": 15
+  },
+  {
+    "Id": 134,
+    "IdQuestion": 27,
+    "Respuesta": "Canción",
+    "Puntaje": 10
+  },
+  {
+    "Id": 135,
+    "IdQuestion": 27,
+    "Respuesta": "Serie\/Película",
+    "Puntaje": 5
+  },
+  {
+    "Id": 136,
+    "IdQuestion": 28,
+    "Respuesta": "Lleno\/a",
+    "Puntaje": 40
+  },
+  {
+    "Id": 137,
+    "IdQuestion": 28,
+    "Respuesta": "Explotado\/a",
+    "Puntaje": 30
+  },
+  {
+    "Id": 138,
+    "IdQuestion": 28,
+    "Respuesta": "Gordo\/a",
+    "Puntaje": 15
+  },
+  {
+    "Id": 139,
+    "IdQuestion": 28,
+    "Respuesta": "Repleto\/a",
+    "Puntaje": 10
+  },
+  {
+    "Id": 140,
+    "IdQuestion": 28,
+    "Respuesta": "Satisfecho\/a",
+    "Puntaje": 5
+  },
+  {
+    "Id": 141,
+    "IdQuestion": 29,
+    "Respuesta": "No te banco\/Me caes mal",
+    "Puntaje": 40
+  },
+  {
+    "Id": 142,
+    "IdQuestion": 29,
+    "Respuesta": "Que se calle",
+    "Puntaje": 30
+  },
+  {
+    "Id": 143,
+    "IdQuestion": 29,
+    "Respuesta": "Tiene mal olor",
+    "Puntaje": 15
+  },
+  {
+    "Id": 144,
+    "IdQuestion": 29,
+    "Respuesta": "Que te gusta",
+    "Puntaje": 10
+  },
+  {
+    "Id": 145,
+    "IdQuestion": 29,
+    "Respuesta": "Que es cornud@\/Su pareja lo\/a engaño",
+    "Puntaje": 5
+  },
+  {
+    "Id": 146,
+    "IdQuestion": 30,
+    "Respuesta": "Un beso",
+    "Puntaje": 40
+  },
+  {
+    "Id": 147,
+    "IdQuestion": 30,
+    "Respuesta": "Una carta",
+    "Puntaje": 30
+  },
+  {
+    "Id": 148,
+    "IdQuestion": 30,
+    "Respuesta": "Flores",
+    "Puntaje": 15
+  },
+  {
+    "Id": 149,
+    "IdQuestion": 30,
+    "Respuesta": "Una canción",
+    "Puntaje": 10
+  },
+  {
+    "Id": 150,
+    "IdQuestion": 30,
+    "Respuesta": "Un dibujo",
+    "Puntaje": 5
+  },
+  {
+    "Id": 151,
+    "IdQuestion": 31,
+    "Respuesta": "Instagram",
+    "Puntaje": 40
+  },
+  {
+    "Id": 152,
+    "IdQuestion": 31,
+    "Respuesta": "TikTok",
+    "Puntaje": 30
+  },
+  {
+    "Id": 153,
+    "IdQuestion": 31,
+    "Respuesta": "Whatsapp",
+    "Puntaje": 15
+  },
+  {
+    "Id": 154,
+    "IdQuestion": 31,
+    "Respuesta": "Twitter",
+    "Puntaje": 10
+  },
+  {
+    "Id": 155,
+    "IdQuestion": 31,
+    "Respuesta": "Spotify",
+    "Puntaje": 5
+  },
+  {
+    "Id": 156,
+    "IdQuestion": 32,
+    "Respuesta": "El inodoro",
+    "Puntaje": 40
+  },
+  {
+    "Id": 157,
+    "IdQuestion": 32,
+    "Respuesta": "Las paredes",
+    "Puntaje": 30
+  },
+  {
+    "Id": 158,
+    "IdQuestion": 32,
+    "Respuesta": "El piso",
+    "Puntaje": 15
+  },
+  {
+    "Id": 159,
+    "IdQuestion": 32,
+    "Respuesta": "El horno",
+    "Puntaje": 10
+  },
+  {
+    "Id": 160,
+    "IdQuestion": 32,
+    "Respuesta": "Las puertas",
+    "Puntaje": 5
+  },
+  {
+    "Id": 161,
+    "IdQuestion": 33,
+    "Respuesta": "Vergüenza\/Nervios",
+    "Puntaje": 40
+  },
+  {
+    "Id": 162,
+    "IdQuestion": 33,
+    "Respuesta": "Por la persona que le gusta",
+    "Puntaje": 30
+  },
+  {
+    "Id": 163,
+    "IdQuestion": 33,
+    "Respuesta": "Quemadura",
+    "Puntaje": 15
+  },
+  {
+    "Id": 164,
+    "IdQuestion": 33,
+    "Respuesta": "Esta enojado\/a",
+    "Puntaje": 10
+  },
+  {
+    "Id": 165,
+    "IdQuestion": 33,
+    "Respuesta": "Esta borracho\/a",
+    "Puntaje": 5
+  },
+  {
+    "Id": 166,
+    "IdQuestion": 34,
+    "Respuesta": "Reggaetón",
+    "Puntaje": 40
+  },
+  {
+    "Id": 167,
+    "IdQuestion": 34,
+    "Respuesta": "Cumbia",
+    "Puntaje": 30
+  },
+  {
+    "Id": 168,
+    "IdQuestion": 34,
+    "Respuesta": "Bachata",
+    "Puntaje": 15
+  },
+  {
+    "Id": 169,
+    "IdQuestion": 34,
+    "Respuesta": "Pop",
+    "Puntaje": 10
+  },
+  {
+    "Id": 170,
+    "IdQuestion": 34,
+    "Respuesta": "Cuarteto",
+    "Puntaje": 5
+  },
+  {
+    "Id": 171,
+    "IdQuestion": 35,
+    "Respuesta": "Fumar",
+    "Puntaje": 40
+  },
+  {
+    "Id": 172,
+    "IdQuestion": 35,
+    "Respuesta": "Golpear a alguien",
+    "Puntaje": 30
+  },
+  {
+    "Id": 173,
+    "IdQuestion": 35,
+    "Respuesta": "Robar",
+    "Puntaje": 15
+  },
+  {
+    "Id": 174,
+    "IdQuestion": 35,
+    "Respuesta": "Romper el lugar",
+    "Puntaje": 10
+  },
+  {
+    "Id": 175,
+    "IdQuestion": 35,
+    "Respuesta": "Salir del aula sin permiso",
+    "Puntaje": 5
+  },
+  {
+    "Id": 176,
+    "IdQuestion": 36,
+    "Respuesta": "A la vuelta",
+    "Puntaje": 40
+  },
+  {
+    "Id": 177,
+    "IdQuestion": 36,
+    "Respuesta": "A x cuadras",
+    "Puntaje": 30
+  },
+  {
+    "Id": 178,
+    "IdQuestion": 36,
+    "Respuesta": "En la esquina",
+    "Puntaje": 15
+  },
+  {
+    "Id": 179,
+    "IdQuestion": 36,
+    "Respuesta": "Nomas",
+    "Puntaje": 10
+  },
+  {
+    "Id": 180,
+    "IdQuestion": 36,
+    "Respuesta": "Cerca",
+    "Puntaje": 5
+  },
+  {
+    "Id": 181,
+    "IdQuestion": 37,
+    "Respuesta": "Personas\/Borrach@s",
+    "Puntaje": 40
+  },
+  {
+    "Id": 182,
+    "IdQuestion": 37,
+    "Respuesta": "Luces",
+    "Puntaje": 30
+  },
+  {
+    "Id": 183,
+    "IdQuestion": 37,
+    "Respuesta": "Alcohol",
+    "Puntaje": 15
+  },
+  {
+    "Id": 184,
+    "IdQuestion": 37,
+    "Respuesta": "Música",
+    "Puntaje": 10
+  },
+  {
+    "Id": 185,
+    "IdQuestion": 37,
+    "Respuesta": "DJ",
+    "Puntaje": 5
+  },
+  {
+    "Id": 186,
+    "IdQuestion": 38,
+    "Respuesta": "Joder",
+    "Puntaje": 40
+  },
+  {
+    "Id": 187,
+    "IdQuestion": 38,
+    "Respuesta": "Correr\/Saltar",
+    "Puntaje": 30
+  },
+  {
+    "Id": 188,
+    "IdQuestion": 38,
+    "Respuesta": "Gritar",
+    "Puntaje": 15
+  },
+  {
+    "Id": 189,
+    "IdQuestion": 38,
+    "Respuesta": "Molestar",
+    "Puntaje": 10
+  },
+  {
+    "Id": 190,
+    "IdQuestion": 38,
+    "Respuesta": "Llorar",
+    "Puntaje": 5
+  },
+  {
+    "Id": 191,
+    "IdQuestion": 39,
+    "Respuesta": "Decolorar",
+    "Puntaje": 40
+  },
+  {
+    "Id": 192,
+    "IdQuestion": 39,
+    "Respuesta": "Alisado",
+    "Puntaje": 30
+  },
+  {
+    "Id": 193,
+    "IdQuestion": 39,
+    "Respuesta": "Tintura",
+    "Puntaje": 15
+  },
+  {
+    "Id": 194,
+    "IdQuestion": 39,
+    "Respuesta": "Queratina",
+    "Puntaje": 10
+  },
+  {
+    "Id": 195,
+    "IdQuestion": 39,
+    "Respuesta": "Plancha",
+    "Puntaje": 5
+  },
+  {
+    "Id": 196,
+    "IdQuestion": 40,
+    "Respuesta": "Zapatos",
+    "Puntaje": 40
+  },
+  {
+    "Id": 197,
+    "IdQuestion": 40,
+    "Respuesta": "Piso\/alfombra",
+    "Puntaje": 30
+  },
+  {
+    "Id": 198,
+    "IdQuestion": 40,
+    "Respuesta": "Ropa",
+    "Puntaje": 15
+  },
+  {
+    "Id": 199,
+    "IdQuestion": 40,
+    "Respuesta": "Pise mal\/ se tropiece",
+    "Puntaje": 10
+  },
+  {
+    "Id": 200,
+    "IdQuestion": 40,
+    "Respuesta": "Otro\/a modelo",
+    "Puntaje": 5
+  },
+  {
+    "Id": 201,
+    "IdQuestion": 41,
+    "Respuesta": "Comida",
+    "Puntaje": 40
+  },
+  {
+    "Id": 202,
+    "IdQuestion": 41,
+    "Respuesta": "El baño",
+    "Puntaje": 30
+  },
+  {
+    "Id": 203,
+    "IdQuestion": 41,
+    "Respuesta": "Atención",
+    "Puntaje": 15
+  },
+  {
+    "Id": 204,
+    "IdQuestion": 41,
+    "Respuesta": "Vista",
+    "Puntaje": 10
+  },
+  {
+    "Id": 205,
+    "IdQuestion": 41,
+    "Respuesta": "Limpieza",
+    "Puntaje": 5
+  },
+  {
+    "Id": 206,
+    "IdQuestion": 42,
+    "Respuesta": "Ropa",
+    "Puntaje": 40
+  },
+  {
+    "Id": 207,
+    "IdQuestion": 42,
+    "Respuesta": "Tierra",
+    "Puntaje": 30
+  },
+  {
+    "Id": 208,
+    "IdQuestion": 42,
+    "Respuesta": "Arena",
+    "Puntaje": 15
+  },
+  {
+    "Id": 209,
+    "IdQuestion": 42,
+    "Respuesta": "Papel",
+    "Puntaje": 10
+  },
+  {
+    "Id": 210,
+    "IdQuestion": 42,
+    "Respuesta": "Pelo",
+    "Puntaje": 5
+  },
+  {
+    "Id": 211,
+    "IdQuestion": 43,
+    "Respuesta": "Hacer un abanico con la mano",
+    "Puntaje": 40
+  },
+  {
+    "Id": 212,
+    "IdQuestion": 43,
+    "Respuesta": "Sacudir la ropa",
+    "Puntaje": 30
+  },
+  {
+    "Id": 213,
+    "IdQuestion": 43,
+    "Respuesta": "Atar el pelo",
+    "Puntaje": 15
+  },
+  {
+    "Id": 214,
+    "IdQuestion": 43,
+    "Respuesta": "Resoplar",
+    "Puntaje": 10
+  },
+  {
+    "Id": 215,
+    "IdQuestion": 43,
+    "Respuesta": "Secar el sudor",
+    "Puntaje": 5
+  },
+  {
+    "Id": 216,
+    "IdQuestion": 44,
+    "Respuesta": "Cohete",
+    "Puntaje": 40
+  },
+  {
+    "Id": 217,
+    "IdQuestion": 44,
+    "Respuesta": "Espada",
+    "Puntaje": 30
+  },
+  {
+    "Id": 218,
+    "IdQuestion": 44,
+    "Respuesta": "Lápiz\/Lapicera",
+    "Puntaje": 15
+  },
+  {
+    "Id": 219,
+    "IdQuestion": 44,
+    "Respuesta": "Vela",
+    "Puntaje": 10
+  },
+  {
+    "Id": 220,
+    "IdQuestion": 44,
+    "Respuesta": "Dedo",
+    "Puntaje": 5
+  },
+  {
+    "Id": 221,
+    "IdQuestion": 45,
+    "Respuesta": "Vóley",
+    "Puntaje": 40
+  },
+  {
+    "Id": 222,
+    "IdQuestion": 45,
+    "Respuesta": "Futbol",
+    "Puntaje": 30
+  },
+  {
+    "Id": 223,
+    "IdQuestion": 45,
+    "Respuesta": "Hockey",
+    "Puntaje": 15
+  },
+  {
+    "Id": 224,
+    "IdQuestion": 45,
+    "Respuesta": "Rugby",
+    "Puntaje": 10
+  },
+  {
+    "Id": 225,
+    "IdQuestion": 45,
+    "Respuesta": "Handball",
+    "Puntaje": 5
+  },
+  {
+    "Id": 226,
+    "IdQuestion": 46,
+    "Respuesta": "Esta roto",
+    "Puntaje": 40
+  },
+  {
+    "Id": 227,
+    "IdQuestion": 46,
+    "Respuesta": "Esta dibujado",
+    "Puntaje": 30
+  },
+  {
+    "Id": 228,
+    "IdQuestion": 46,
+    "Respuesta": "No está vigente",
+    "Puntaje": 15
+  },
+  {
+    "Id": 229,
+    "IdQuestion": 46,
+    "Respuesta": "Está desgastado\/viejo",
+    "Puntaje": 10
+  },
+  {
+    "Id": 230,
+    "IdQuestion": 46,
+    "Respuesta": "No es del país",
+    "Puntaje": 5
+  },
+  {
+    "Id": 231,
+    "IdQuestion": 47,
+    "Respuesta": "Sillón",
+    "Puntaje": 40
+  },
+  {
+    "Id": 232,
+    "IdQuestion": 47,
+    "Respuesta": "Transporte público",
+    "Puntaje": 30
+  },
+  {
+    "Id": 233,
+    "IdQuestion": 47,
+    "Respuesta": "Piso",
+    "Puntaje": 15
+  },
+  {
+    "Id": 234,
+    "IdQuestion": 47,
+    "Respuesta": "Auto",
+    "Puntaje": 10
+  },
+  {
+    "Id": 235,
+    "IdQuestion": 47,
+    "Respuesta": "Colegio",
+    "Puntaje": 5
+  },
+  {
+    "Id": 236,
+    "IdQuestion": 48,
+    "Respuesta": "Se rompió",
+    "Puntaje": 40
+  },
+  {
+    "Id": 237,
+    "IdQuestion": 48,
+    "Respuesta": "No anda bien",
+    "Puntaje": 30
+  },
+  {
+    "Id": 238,
+    "IdQuestion": 48,
+    "Respuesta": "Se lo robaron",
+    "Puntaje": 15
+  },
+  {
+    "Id": 239,
+    "IdQuestion": 48,
+    "Respuesta": "Se perdió",
+    "Puntaje": 10
+  },
+  {
+    "Id": 240,
+    "IdQuestion": 48,
+    "Respuesta": "No tiene espacio",
+    "Puntaje": 5
+  },
+  {
+    "Id": 241,
+    "IdQuestion": 49,
+    "Respuesta": "Es usado",
+    "Puntaje": 40
+  },
+  {
+    "Id": 242,
+    "IdQuestion": 49,
+    "Respuesta": "Se lo quiere sacar de encima",
+    "Puntaje": 30
+  },
+  {
+    "Id": 243,
+    "IdQuestion": 49,
+    "Respuesta": "Es una estafa\/ es robado",
+    "Puntaje": 15
+  },
+  {
+    "Id": 244,
+    "IdQuestion": 49,
+    "Respuesta": "Necesita la plata",
+    "Puntaje": 10
+  },
+  {
+    "Id": 245,
+    "IdQuestion": 49,
+    "Respuesta": "No conoce el precio real",
+    "Puntaje": 5
+  },
+  {
+    "Id": 246,
+    "IdQuestion": 50,
+    "Respuesta": "Cabeza de rodilla",
+    "Puntaje": 40
+  },
+  {
+    "Id": 247,
+    "IdQuestion": 50,
+    "Respuesta": "Tobogán de piojos",
+    "Puntaje": 30
+  },
+  {
+    "Id": 248,
+    "IdQuestion": 50,
+    "Respuesta": "Frente infinita",
+    "Puntaje": 15
+  },
+  {
+    "Id": 249,
+    "IdQuestion": 50,
+    "Respuesta": "Bola de cristal",
+    "Puntaje": 10
+  },
+  {
+    "Id": 250,
+    "IdQuestion": 50,
+    "Respuesta": "Foco de luz",
+    "Puntaje": 5
+  }
+]
