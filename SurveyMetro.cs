@@ -6,7 +6,6 @@ using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
 using MetroSet_UI.Forms;
-using Microsoft.Data.SqlClient;
 using MetroSet_UI.Controls;
 using System.IO;
 using System.Linq;
