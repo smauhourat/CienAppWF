@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Data;
 using System.Windows.Forms;
-using Microsoft.Data.SqlClient;
 using MetroSet_UI.Controls;
 using System.Linq;
 
@@ -9,7 +8,6 @@ namespace CienAppWF
 {
     public partial class QuestionsMetro : BaseForm
     {
-        private SqlConnection dbConnection;
 
         private int _idSurvey;
         private string _surveyName;
@@ -187,32 +185,8 @@ namespace CienAppWF
         private void QuestionsMetro_Load(object sender, EventArgs e)
         {
             this.Text += " " + this._surveyName;
-            dbConnection = new SqlConnection(base._connStr);
-            dbConnection.Open();
 
-            //GetAllQuestions(this._idSurvey);
             GetAllQuestionsJson(this._idSurvey);
-        }
-
-        private void GetAllQuestions(int idSurvey)
-        {
-            SqlCommand dbCommand = new SqlCommand("SELECT TOP 10 Id, Pregunta FROM Question WHERE IdSurvey = " + idSurvey.ToString(), dbConnection);
-            dbCommand.CommandType = CommandType.Text;
-
-            SqlDataAdapter dbAdapter = new SqlDataAdapter(dbCommand);
-            DataTable dt = new DataTable();
-            dbAdapter.Fill(dt);
-
-            foreach (DataRow e in dt.Rows)
-            {
-                int indice = int.Parse(e["Id"].ToString()) - (10*(idSurvey-1));
-                MetroSetLabel ctrl = (MetroSetLabel)this.Controls.Find("lblPregunta_" + indice.ToString(), true)[0];
-                if (ctrl != null)
-                {
-                    ctrl.Text = e["Pregunta"].ToString();
-                    GetAllAnswers(int.Parse(e["Id"].ToString()));
-                }
-            }
         }
 
         private void GetAllQuestionsJson(int idSurvey)
@@ -227,28 +201,6 @@ namespace CienAppWF
                 {
                     ctrl.Text = q.Pregunta.ToString();
                     GetAllAnswersJson(q.Id, idSurvey);
-                }
-            }
-        }
-
-        private void GetAllAnswers(int idQuestion)
-        {
-            SqlCommand dbCommand = new SqlCommand("SELECT A.Id, B.IdSurvey, A.Respuesta, A.Puntaje FROM Answer A INNER JOIN Question B on A.IdQuestion = B.Id WHERE A.IdQuestion = " + idQuestion.ToString(), dbConnection);
-            dbCommand.CommandType = CommandType.Text;
-
-            SqlDataAdapter dbAdapter = new SqlDataAdapter(dbCommand);
-            DataTable dt = new DataTable();
-            dbAdapter.Fill(dt);
-
-            foreach (DataRow e in dt.Rows)
-            {
-                int indice_1 = idQuestion - (10 * (int.Parse(e["IdSurvey"].ToString()) - 1));
-                int indice_2 = int.Parse(e["Id"].ToString()) - (5 * (idQuestion - 1));
-                MetroSetButton ctrl = (MetroSetButton)this.Controls.Find("btnRespuesta_"+ indice_1.ToString()+"_" + indice_2.ToString(), true)[0];
-                if (ctrl != null)
-                {
-                    ctrl.Text = indice_2.ToString();
-                    ctrl.Tag = new ButtonTag(indice_2.ToString(), e["Respuesta"].ToString() + " - " + "#" + e["Puntaje"].ToString());
                 }
             }
         }
@@ -272,10 +224,6 @@ namespace CienAppWF
 
         private void QuestionsMetro_FormClosed(object sender, FormClosedEventArgs e)
         {
-            if (dbConnection != null)
-            {
-                dbConnection.Close();
-            }
         }
 
         private void metroSetTabControl1_SelectedIndexChanged(object sender, EventArgs e)

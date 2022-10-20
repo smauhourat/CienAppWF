@@ -9,16 +9,12 @@ namespace CienAppWF
 {
     public partial class BaseForm : MetroSetForm
     {
-        protected string _connStr = "";
         protected List<Survey> _listSurvey;
         protected List<Question> _listQuestion;
         protected List<Answer> _listAnswer;
 
         public BaseForm()
         {
-            var database = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Database1.mdf");
-            _connStr = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename="+database+";Integrated Security=True";
-
             using (StreamReader r = new StreamReader("survey.json"))
             {
                 var options = new JsonSerializerOptions

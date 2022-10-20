@@ -15,8 +15,6 @@ namespace CienAppWF
 {
     public partial class SurveyMetro : BaseForm
     {
-        private SqlConnection dbConnection;
-
         public SurveyMetro()
         {
             InitializeComponent();
@@ -24,9 +22,6 @@ namespace CienAppWF
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            dbConnection = new SqlConnection(this._connStr);
-            dbConnection.Open();
-            //GetAllSurveys();
             GetAllSurveysJson();
         }
 
@@ -45,24 +40,6 @@ namespace CienAppWF
             questionsForm.ShowDialog(this);
         }
 
-        private void GetAllSurveys()
-        {
-            SqlCommand dbCommand = new SqlCommand("SELECT Id, Encuesta FROM Survey", dbConnection);
-            dbCommand.CommandType = CommandType.Text;
-
-            SqlDataAdapter dbAdapter = new SqlDataAdapter(dbCommand);
-            DataTable dt = new DataTable();
-            dbAdapter.Fill(dt);
-
-            foreach (DataRow e in dt.Rows)
-            {
-                MetroSetButton ctrl = (MetroSetButton)this.Controls.Find("btnEncuesta_" + e["Id"].ToString(), true)[0];
-                ctrl.Text = e["Encuesta"].ToString();
-
-                ctrl.Click += btnClickEvent;
-            }
-        }
-
         private void GetAllSurveysJson()
         {
             foreach (Survey s in base._listSurvey)
@@ -76,10 +53,7 @@ namespace CienAppWF
 
         private void Form1_FormClosed(object sender, FormClosedEventArgs e)
         {
-            if (dbConnection != null)
-            {
-                dbConnection.Close();
-            }
+
         }
     }
 }
